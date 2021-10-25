@@ -1,0 +1,36 @@
+.header{
+    background-color:#151531;
+    border-radius: 0px 0px 20px 20px;
+}
+.logo1{
+    color:white;
+    font-family: 'Montserrat';
+    font-size: 36px;
+    padding-top: 10px;
+    padding-bottom: 1px;
+}
+.pad-line{
+    padding-top: 20px;
+    padding-left: 48px;
+}
+.line{
+    border-left: 1px solid #C4C4C4;
+    padding-top: 38px;
+
+}
+.header-menu{
+    color:white;
+    font-family: 'Montserrat';
+    font-size: 24px;
+}
+.header-menu:hover{
+    color:#ffc107;
+    font-family: 'Montserrat';
+    font-size: 24px;
+}
+a{
+    text-decoration: none;
+}
+.pad{
+    padding-top: 23px;
+}
