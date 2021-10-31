@@ -49,7 +49,7 @@ h2{
     font-family: 'Montserrat';
     font-size: 22px;
 }
-button{
+.button{
     margin-top:5%;
     background-color: #068099;
     font-family: 'Montserrat';
@@ -63,9 +63,9 @@ button{
     border:none;
     transition: 1s;
 }
-button:hover{
+.button:hover{
     transition: 1s;
-    background-color:#8DB093;
+    background-color:#151531;
 }
 .line-1{
     border-bottom: 1px solid black;
@@ -79,7 +79,7 @@ button:hover{
     .check-points{
         font-size: 22px;
     }
-    button{
+    .button{
         border-radius: 20px;
         padding:10px 40px;
         font-size: 20px;
@@ -115,7 +115,7 @@ button:hover{
 .check-points{
     font-size: 18px;
 }
-button{
+.button{
     border-radius: 20px;
     padding:10px 40px;
     font-size: 20px;
@@ -135,7 +135,7 @@ h2{
         padding-top: 45%;
         padding-left: 200%;
     }
-    button{
+    .button{
    
         border-radius: 20px;
         padding:10px 40px;
