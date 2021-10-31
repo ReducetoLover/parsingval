@@ -10,8 +10,8 @@
     padding-bottom: 1px;
 }
 .pad-line{
-    padding-top: 20px;
-    padding-left: 48px;
+    padding-top: 25%;
+    padding-left: 70%;
 }
 .line{
     border-left: 1px solid #C4C4C4;
@@ -22,11 +22,11 @@
     color:white;
     font-family: 'Montserrat';
     font-size: 24px;
+    transition: 1s;
 }
 .header-menu:hover{
+    transition: 1s;
     color:#ffc107;
-    font-family: 'Montserrat';
-    font-size: 24px;
 }
 a{
     text-decoration: none;
@@ -34,3 +34,130 @@ a{
 .pad{
     padding-top: 23px;
 }
+h1{
+    font-family: 'Montserrat';
+    font-size: 64px;
+    padding-top: 45%;
+}
+h2{
+    font-family: 'Montserrat';
+    font-size: 32px;
+    font-weight: bold;
+    padding-bottom: 5%;
+}
+.check-points{
+    font-family: 'Montserrat';
+    font-size: 22px;
+}
+button{
+    margin-top:5%;
+    background-color: #068099;
+    font-family: 'Montserrat';
+    text-align: center;
+    text-decoration: none;
+    color:white;
+    border-radius: 20px;
+    padding:10px 40px;
+    font-size: 24px;
+    font-weight: bold;
+    border:none;
+    transition: 1s;
+}
+button:hover{
+    transition: 1s;
+    background-color:#8DB093;
+}
+.line-1{
+    border-bottom: 1px solid black;
+    width: 67%;
+}
+.main-img{
+    padding-top: 120px;
+    width: 190%;
+}
+@media screen and (max-width:1399px){
+    .check-points{
+        font-size: 22px;
+    }
+    button{
+        border-radius: 20px;
+        padding:10px 40px;
+        font-size: 20px;
+    }
+    h1{
+
+        font-size: 60px;
+    }
+    h2{
+        font-size: 28px;
+    }
+    .line-1{
+        width: 73%;
+    }  
+}
+
+
+
+@media screen and (max-width:1199px){
+
+.logo1{
+    font-size: 28px;
+}
+.pad-line{
+    padding-top: 30%;
+}
+.line{
+    padding-top: 32px;
+}
+.header-menu{
+    font-size: 18px;
+}
+.check-points{
+    font-size: 18px;
+}
+button{
+    border-radius: 20px;
+    padding:10px 40px;
+    font-size: 20px;
+}
+h1{
+    font-size: 48px;
+}
+h2{
+    font-size: 24px;
+}
+.line-1{
+    width: 70%;
+}
+}
+@media screen and (max-width:991px){
+    .pad-line{
+        padding-top: 45%;
+        padding-left: 200%;
+    }
+    button{
+   
+        border-radius: 20px;
+        padding:10px 40px;
+        font-size: 15px;
+    }
+    h1{
+        font-size: 32px;
+    }
+    h2{
+        font-size: 18px;
+    }
+    .check-points{
+        font-size: 15px;
+    }
+    .line-1{
+        width: 65%;
+    }
+} 
+@media screen and (max-width:767px){
+
+} 
+@media screen and (max-width:574px){
+
+
+} 

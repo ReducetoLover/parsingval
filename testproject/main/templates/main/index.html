@@ -1,6 +1,25 @@
 {% extends 'main/base.html' %}
-
+{% load static %}
+{% block head %}
+{% endblock %}
 {% block body %}
-<!--sdkujgfhdjkhg-->
+<section class="main">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-5">
+                <h1><div class="line-1">Moon<b>Price</b></div></h1>
+                <h2>Мониторинг акций и валют</h2>
+                <p class="check-points"><img src="{% static '/img/Done.png'%}">Актуальная информация</p>
+                <p class="check-points"><img src="{% static '/img/Done.png'%}">Сравнительный анализ цен</p>
+                <p class="check-points"><img src="{% static '/img/Done.png'%}">Мониторинг 10 валют и 50 акций</p>
+                <button>Попробовать</button>
+            </div>
+            <div class="col-md-4">
+                <img src="{% static 'img/screen main function.png'%}" class="main-img">
+            </div>
+        </div>
+    </div>
+
+</section>
 
 {% endblock %}
