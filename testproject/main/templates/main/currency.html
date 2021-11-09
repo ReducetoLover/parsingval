@@ -1,1 +1,81 @@
 {% extends 'main/base.html' %}
+{% load static %}
+{% block body%}
+<section>
+    <div class="container">
+        <div class="row">
+            <div class="offset-lg-1 offset-xl-2 col-md-6">
+                <div class="block-1">
+                    <div class="row text-center">
+                        <div class="col-md-3">
+                            <p class="currency-1">Валюта</p>
+                            <div class="dropdown">
+                                <button class="button-1 btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">USD</button>
+                                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                  <a class="dropdown-item" href="#">AUD</a>
+                                  <a class="dropdown-item" href="#">EUR</a>
+                                  <a class="dropdown-item" href="#">KZT</a>
+                                </div>
+                              </div>
+                        </div>
+                        <div class="col-md-3">
+                            <p class="currency-1">Курс ЦБ</p>
+                            <p class="currency">70,08</p>
+                            <p class="low-text-currency">Рубль за доллар США</p>
+                        </div>
+                        <div class="col-md-3">
+                            <p class="currency-1">Покупка</p>
+                            <p class="currency">70,08</p>
+                            <p class="low-text-currency">БКС банк</p>
+                        </div>
+                        <div class="col-md-3">
+                            <p class="currency-1">Продажа</p>
+                            <p class="currency">70,08</p>
+                            <p class="low-text-currency">БКС банк</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section>
+    <div class="container">
+        <div class="row">
+            <div class="col-8">
+                <p class="under-text-graph">Динамика курса</p>
+                <div class="block-graph">
+                    <div class="pad-d">
+                        <button type="submit" class="button-day" onclick="days();">День</button>
+                        <button class="button-day">Год</button>
+                    </div>
+                        <canvas id="myChart"></canvas>
+                </div>
+            </div>
+            <div class="col-4">
+                <p class="under-text-graph">Динамика курса за месяц</p>
+                <div class="block-table text-center">
+                    <table class="table-border">
+                        <tr><td class="table-rad currency-td"><b>Дата</b></td><td class="table-rad currency-td"><b>Курс</b></td></tr>
+                        <tr><td class="table-rd currency-td">01.01.2021</td><td class="table-rd currency-td">70 руб.</td></tr>
+                        <tr><td class="table-rd currency-td">01.01.2021</td><td class="table-rd currency-td">70 руб.</td></tr>
+                        <tr><td class="table-rd currency-td">01.01.2021</td><td class="table-rd currency-td">70 руб.</td></tr>
+                        <tr><td class="table-rd currency-td">01.01.2021</td><td class="table-rd currency-td">70 руб.</td></tr>
+                        <tr><td class="table-rd currency-td">01.01.2021</td><td class="table-rd currency-td">70 руб.</td></tr>
+                        <tr><td class="table-rd currency-td">01.01.2021</td><td class="table-rd currency-td">70 руб.</td></tr>
+                        <tr><td class="table-rd currency-td">01.01.2021</td><td class="table-rd currency-td">70 руб.</td></tr>
+                        <tr><td class="table-rd currency-td">01.01.2021</td><td class="table-rd currency-td">70 руб.</td></tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<script src="../js/main.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js@3.6.0/dist/chart.min.js"></script>
+<script src="{% static '/js/Chart.js' %}"></script>
+{% endblock %}

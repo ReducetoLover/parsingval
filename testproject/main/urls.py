@@ -21,5 +21,6 @@ urlpatterns = [
     path('', views.index, name='home'),
     path('create', views.create, name='create'),
     path('stock', views.stock, name='stock'),
-    path('currency', views.currency, name='currency')
+    path('currency', views.currency, name='currency'),
+    path('chart', views.chart, name='chart'),
 ]

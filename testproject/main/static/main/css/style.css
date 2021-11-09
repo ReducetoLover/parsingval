@@ -1,3 +1,6 @@
+body{
+    background-color: #F0F0F0 !important;
+}
 .header{
     background-color:#151531;
     border-radius: 0px 0px 20px 20px;
@@ -49,7 +52,7 @@ h2{
     font-family: 'Montserrat';
     font-size: 22px;
 }
-.button{
+button{
     margin-top:5%;
     background-color: #068099;
     font-family: 'Montserrat';
@@ -63,9 +66,9 @@ h2{
     border:none;
     transition: 1s;
 }
-.button:hover{
+button:hover{
     transition: 1s;
-    background-color:#151531;
+    background-color:#8DB093;
 }
 .line-1{
     border-bottom: 1px solid black;
@@ -75,11 +78,119 @@ h2{
     padding-top: 120px;
     width: 190%;
 }
+.block-1{
+    margin-top: 55px;
+    width: 830px;
+    height: 140px;
+    border-radius: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+}
+.currency-1{
+    font-family: 'Montserrat';
+    font-size: 28px;
+    font-weight: Bold;
+}
+.stock-1{
+    font-family: 'Montserrat';
+    font-size: 28px;
+    font-weight: Bold;
+}
+.currency{
+    font-family: 'Montserrat';
+    font-size: 28px;
+}
+.stock{
+    font-family: 'Montserrat';
+    font-size: 28px;
+}
+.low-text-currency{
+    font-family: 'Montserrat';
+    font-size: 10px;
+}
+.low-text-stock{
+    font-family: 'Montserrat';
+    font-size: 10px;
+}
+.button-1{
+    margin-top: -5px;
+    font-family: 'Montserrat';
+    font-size: 28px;
+    border:none;
+    color:black;
+    background-color: white;
+    border-radius: 20px;
+    padding:5px 20px;
+    transition: 1s;
+}
+.block-graph{
+    background-color: white;
+    width: 863px;
+    height: 550px;
+    border-radius: 20px;
+}
+.block-table{
+    background-color: white;
+    max-width: 430px;
+    max-height: 550px;
+    overflow-x: hidden;
+    border-radius: 20px;
+}
+.under-text-graph{
+    font-family: 'Montserrat';
+    padding-top: 30px;
+    font-size: 15px;
+}
+.date-table{
+    font-family: 'Montserrat';
+    font-size: 28px;
+    font-weight: bold;
+}
+.currency-table{
+    font-family: 'Montserrat';
+    font-size: 28px;
+    font-weight: bold;
+}
+.table-border{
+    border-collapse: collapse;
+    border-style: hidden;
+}
+.table-rad{
+    padding: 20px 71px;
+    border: 1px solid #068099;
+}
+.table-rd{
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.currency-td{
+    font-size: 28px;
+    font-family: 'Montserrat';
+    border: 1px solid #068099;
+}
+.button-day{
+    margin-top:3%;
+    background-color: #068099;
+    font-family: 'Montserrat';
+    text-align: center;
+    color:white;
+    border-radius: 20px;
+    padding:5px 30px;
+    font-size: 18px;
+    font-weight: bold;
+    border:none;
+    transition: 1s;
+    margin-left: 8%;
+}
+.pad-d{
+    margin-left: 55%;
+}
 @media screen and (max-width:1399px){
     .check-points{
         font-size: 22px;
     }
-    .button{
+    button{
         border-radius: 20px;
         padding:10px 40px;
         font-size: 20px;
@@ -94,6 +205,50 @@ h2{
     .line-1{
         width: 73%;
     }  
+    .currency-1{
+        font-size: 25px;
+    }
+    .stock-1{
+        font-size: 25px;
+    }
+    .currency{
+        font-size: 25px;
+    }
+    .stock{
+        font-size: 25px;
+    }
+    .low-text-currency{
+        font-size: 9px;
+        margin-top: -10px;
+    }
+    .low-text-stock{
+        font-size: 9px;
+        margin-top: -10px;
+    }
+    .block-1{
+        width: 800px;
+        height: 120px;
+    }
+    .button-1{
+        font-size: 25px;
+    }
+    .block-graph{
+        width: 750px;
+        height: 500px;
+    }
+    .block-table{
+        max-width: 470px;
+        max-height: 500px;
+    }
+    .currency-td{
+        font-size: 25px; 
+    }
+    .table-rad{
+        padding: 15px 60px;
+    }
+    .button-day{
+        font-size: 15px;
+    }
 }
 
 
@@ -115,7 +270,7 @@ h2{
 .check-points{
     font-size: 18px;
 }
-.button{
+button{
     border-radius: 20px;
     padding:10px 40px;
     font-size: 20px;
@@ -129,13 +284,34 @@ h2{
 .line-1{
     width: 70%;
 }
+.block-graph{
+    width: 630px;
+    height: 450px;
+}
+.block-table{
+    max-width: 400px;
+    max-height: 450px;
+}
+.currency-td{
+    font-size: 20px; 
+}
+.table-rad{
+    padding: 10px 50px;
+}
+.under-text-graph{
+    font-size: 12px;
+}
+.button-day{
+    padding:5px 25px;
+    font-size: 12px;
+}
 }
 @media screen and (max-width:991px){
     .pad-line{
         padding-top: 45%;
         padding-left: 200%;
     }
-    .button{
+    button{
    
         border-radius: 20px;
         padding:10px 40px;
@@ -152,6 +328,54 @@ h2{
     }
     .line-1{
         width: 65%;
+    }
+    .block-1{
+        width: 700px;
+        height: 100px;
+    }
+    .currency-1{
+        font-size: 20px;
+    }
+    .stock-1{
+        font-size: 20px;
+    }
+    .currency{
+        font-size: 20px;
+    }
+    .stock{
+        font-size: 20px;
+    }
+    .low-text-currency{
+        font-size: 8px;
+        margin-top: -10px;
+    }
+    .low-text-stock{
+        font-size: 8px;
+        margin-top: -10px;
+    }
+    .button-1{
+        font-size: 20px;
+    }
+    .block-graph{
+        width: 470px;
+        height: 350px;
+    }
+    .block-table{
+        max-width: 400px;
+        max-height: 350px;
+    }
+    .currency-td{
+        font-size: 18px; 
+    }
+    .table-rad{
+        padding: 5px 31px;
+    }
+    .under-text-graph{
+        font-size: 10px;
+    }
+    .button-day{
+        padding:3px 20px;
+        font-size: 8px;
     }
 } 
 @media screen and (max-width:767px){
