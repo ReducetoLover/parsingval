@@ -1,36 +1,29 @@
 var ctx = document.getElementById('myChart').getContext('2d');
 
-const myChart = new Chart(ctx, {
-    type: 'bar',
-    data: {
-        labels: ['Red', 'Blue', 'Yellow', 'Green', 'Purple', 'Orange'],
-        datasets: [{
-            label: '# of Votes',
-            data: [12, 19, 3, 5, 2, 3],
-            backgroundColor: [
-                'rgba(255, 99, 132, 0.2)',
-                'rgba(54, 162, 235, 0.2)',
-                'rgba(255, 206, 86, 0.2)',
-                'rgba(75, 192, 192, 0.2)',
-                'rgba(153, 102, 255, 0.2)',
-                'rgba(255, 159, 64, 0.2)'
-            ],
-            borderColor: [
-                'rgba(255, 99, 132, 1)',
-                'rgba(54, 162, 235, 1)',
-                'rgba(255, 206, 86, 1)',
-                'rgba(75, 192, 192, 1)',
-                'rgba(153, 102, 255, 1)',
-                'rgba(255, 159, 64, 1)'
-            ],
-            borderWidth: 1
-        }]
-    },
-    options: {
-        scales: {
-            y: {
-                beginAtZero: true
-            }
-        }
-    }
+var data = {
+labels: ["12 AM", "1 AM", "2 AM", "3 AM", "4 AM", "5 AM", "6 AM", "7 AM", "8 AM", "9 AM", "10 AM", "11 AM", "12 PM", "1 PM", "2 PM", "3 PM", "4 PM", "5 PM", "6 PM", "7 PM", "8 PM", "9 PM", "10 PM", "11 PM"],
+datasets: [
+  {
+    label: "Sales $",
+    lineTension: 0,
+    backgroundColor: "rgba(143,199,232,0.2)",
+    borderColor: "rgba(108,108,108,1)",
+    borderWidth: 1,
+    pointBackgroundColor: "#535353",
+    data: [65, 59, 80, 81, 56, 55, 59, 80, 81, 56, 55, 40, 59, 80, 81, 56, 55, 40, 59, 80, 81, 56, 55, 40]
+  }
+]
+};
+
+//var myChart =
+new Chart(document.getElementById('myChart'), {
+type: 'line',
+data: data,
+options: {
+    animation: false,
+    legend: {display: false},
+    maintainAspectRatio: true,
+    responsive: true,
+    responsiveAnimationDuration: 0
+}
 });

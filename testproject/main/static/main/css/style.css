@@ -32,7 +32,7 @@ body{
     color:#ffc107;
 }
 a{
-    text-decoration: none;
+    text-decoration: none !important;
 }
 .pad{
     padding-top: 23px;
