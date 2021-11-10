@@ -16,10 +16,9 @@ var CUR_YEAR = {
     },
     KZT : {
         dates : ["01.01.2021","01.02.2021","01.03.2021","01.04.2021","01.05.2021","01.06.2021","01.07.2021","01.08.2021","01.09.2021","01.10.2021","01.11.2021","01.12.2021"],
-        values: [71.3,72,70,70,72,72,71,74,72.5,72,73,73]
+        values: [,72,72,71,74,72.5,72,73,73]
     }
 }
-
 
 var CUR_WEEK = {
     USD : {
@@ -36,23 +35,31 @@ var CUR_WEEK = {
     },
     KZT : {
         dates : ["01.07.2021","02.07.2021","03.07.2021","04.07.2021","05.07.2021","06.07.2021","07.07.2021"],
-        values: [70,70,72,72,71,74,72.5]
+        values: [71.3,72,70,70,71,74,72.5]
     }
 }
+var SELECTED_Currency = "EUR";
+var SELECTED_Period = CUR_WEEK;
+var Currency = () => SELECTED_Period[SELECTED_Currency];
+
 
 
 var data = {
-labels: CUR_YEAR.USD.dates,
+labels: Currency().dates,
 datasets: [
-  {
-    label: "Sales $",
+{
+    label: "Стоимость",
     lineTension: 0,
-    backgroundColor: "rgba(143,199,232,0.2)",
+    backgroundColor: ["blue"],
     borderColor: "rgba(108,108,108,1)",
     borderWidth: 1,
+    hoverOffset: 4,
+    pointStyle: 'star',
+    pointRadius: 2,
     pointBackgroundColor: "#535353",
-    data: CUR_YEAR.USD.values
-  }
+    pointBorderColor: "red",
+    data: Currency().values
+}
 ]
 };
 
@@ -62,10 +69,41 @@ new Chart(document.getElementById('myChart'), {
 type: 'line',
 data: data,
 options: {
-    animation: false,
-    legend: {display: false},
+    animation: true,
+    plugins:{
+        legend: {
+        display: true,
+        labels: {color: 'rgb(255, 99, 132)'}
+        }
+    },
     maintainAspectRatio: true,
     responsive: true,
     responsiveAnimationDuration: 0
 }
 });
+
+function changeChartData(chart) {
+    var C = chart.data;
+    C.labels = Currency().dates;
+    C.datasets[0].data = Currency().values;
+    chart.update();
+}
+
+$(document).ready(function() {
+    $('.dropdown-item').click(function () {
+        SELECTED_Currency = $(this).html();
+        changeChartData(myChart);
+    });
+
+    $('#WEEKbutton').click(function(){
+        SELECTED_Period = CUR_WEEK;
+        changeChartData(myChart);
+    });
+
+    $('#YEARbutton').click(function(){
+        SELECTED_Period = CUR_YEAR;
+        changeChartData(myChart);
+    });
+
+});
+
