@@ -131,9 +131,10 @@ button:hover{
     border-radius: 20px;
 }
 .block-table{
+    overflow:hidden;
     background-color: white;
     max-width: 430px;
-    max-height: 550px;
+    max-height: 560px;
     overflow-x: hidden;
     border-radius: 20px;
 }
@@ -165,7 +166,7 @@ button:hover{
     padding-bottom: 5px;
 }
 .currency-td{
-    font-size: 28px;
+    font-size: 26px;
     font-family: 'Montserrat';
     border: 1px solid #068099;
 }

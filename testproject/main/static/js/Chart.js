@@ -17,6 +17,10 @@ var CUR_YEAR = {
     KZT : {
         dates : ["01.01.2021","01.02.2021","01.03.2021","01.04.2021","01.05.2021","01.06.2021","01.07.2021","01.08.2021","01.09.2021","01.10.2021","01.11.2021","01.12.2021"],
         values: [,72,72,71,74,72.5,72,73,73]
+    },
+        QWE: {
+        dates: ["11.11.2021"],
+        values: [100]
     }
 }
 
@@ -30,12 +34,16 @@ var CUR_WEEK = {
         values: [74,72.5,72,73,73,71.3,72]
     },
     EUR : {
-        dates : ["01.07.2021","02.07.2021","03.07.2021","04.07.2021","05.07.2021","06.07.2021","07.07.2021"],
-        values: [70,70,72,72,71,74,72.5]
+        dates : ["01.07.2021","02.07.2021","03.07.2021","04.07.2021","05.07.2021","06.07.2021","07.07.2021","07.07.2021","07.07.2021","07.07.2021","07.07.2021"],
+        values: [70,70,72,72,71,74,72.5,72.5,72.5,72.5,72.5]
     },
     KZT : {
         dates : ["01.07.2021","02.07.2021","03.07.2021","04.07.2021","05.07.2021","06.07.2021","07.07.2021"],
         values: [71.3,72,70,70,71,74,72.5]
+    },
+    QWE: {
+        dates: ["11.11.2021"],
+        values: [100]
     }
 }
 var SELECTED_Currency = "EUR";
@@ -50,14 +58,14 @@ datasets: [
 {
     label: "Стоимость",
     lineTension: 0,
-    backgroundColor: ["blue"],
-    borderColor: "rgba(108,108,108,1)",
-    borderWidth: 1,
+    backgroundColor: ["rgba(6,128,153,255)"],
+    borderColor: "rgba(21,21,49,255)",
+    borderWidth: 2,
     hoverOffset: 4,
     pointStyle: 'star',
-    pointRadius: 2,
+    pointRadius: 3,
     pointBackgroundColor: "#535353",
-    pointBorderColor: "red",
+    pointBorderColor: "rgba(6,128,153,255)",
     data: Currency().values
 }
 ]
@@ -73,7 +81,7 @@ options: {
     plugins:{
         legend: {
         display: true,
-        labels: {color: 'rgb(255, 99, 132)'}
+        labels: {color: 'rgba(21,21,49,255)'}
         }
     },
     maintainAspectRatio: true,
