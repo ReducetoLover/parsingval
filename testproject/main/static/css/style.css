@@ -5,6 +5,24 @@ body{
     background-color:#151531;
     border-radius: 0px 0px 20px 20px;
 }
+.current-but{
+    background-color: white;
+    border:none;
+    font-size: 28px;
+    font-family: 'Montserrat';
+    text-align: center;
+    font-weight: bold;
+    padding:5px 20px;
+}
+.stock-but{
+    background-color: white;
+    border:none;
+    font-size: 28px;
+    font-family: 'Montserrat';
+    text-align: center;
+    font-weight: bold;
+    padding:2px 20px;
+}
 .logo1{
     color:white;
     font-family: 'Montserrat';
@@ -52,7 +70,7 @@ h2{
     font-family: 'Montserrat';
     font-size: 22px;
 }
-button{
+.button{
     margin-top:5%;
     background-color: #068099;
     font-family: 'Montserrat';
@@ -66,10 +84,10 @@ button{
     border:none;
     transition: 1s;
 }
-button:hover{
+.button:hover{
     transition: 1s;
     background-color:#8DB093;
-}
+}}
 .line-1{
     border-bottom: 1px solid black;
     width: 67%;
@@ -80,8 +98,8 @@ button:hover{
 }
 .block-1{
     margin-top: 55px;
-    width: 830px;
-    height: 140px;
+    width: 420px;
+    min-height: 140px;
     border-radius: 20px;
     margin-left: auto;
     margin-right: auto;
@@ -227,8 +245,8 @@ button:hover{
         margin-top: -10px;
     }
     .block-1{
-        width: 800px;
-        height: 120px;
+        width: 400px;
+        min-height: 120px;
     }
     .button-1{
         font-size: 25px;
@@ -249,6 +267,24 @@ button:hover{
     }
     .button-day{
         font-size: 15px;
+    }
+    .current-but{
+        background-color: white;
+        border:none;
+        font-size: 25px;
+        font-family: 'Montserrat';
+        text-align: center;
+        font-weight: bold;
+        padding:4px 20px;
+    }
+    .stock-but{
+        background-color: white;
+        border:none;
+        font-size: 25px;
+        font-family: 'Montserrat';
+        text-align: center;
+        font-weight: bold;
+        padding:2px 20px;
     }
 }
 
@@ -331,8 +367,8 @@ h2{
         width: 65%;
     }
     .block-1{
-        width: 700px;
-        height: 100px;
+        width: 300px;
+        min-height: 100px;
     }
     .currency-1{
         font-size: 20px;
@@ -377,6 +413,24 @@ h2{
     .button-day{
         padding:3px 20px;
         font-size: 8px;
+    }
+    .current-but{
+        background-color: white;
+        border:none;
+        font-size: 20px;
+        font-family: 'Montserrat';
+        text-align: center;
+        font-weight: bold;
+        padding:2px 20px;
+    }
+    .stock-but{
+        background-color: white;
+        border:none;
+        font-size: 20px;
+        font-family: 'Montserrat';
+        text-align: center;
+        font-weight: bold;
+        padding:2px 20px;
     }
 } 
 @media screen and (max-width:767px){
