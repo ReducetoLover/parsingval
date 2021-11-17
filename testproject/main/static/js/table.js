@@ -100,6 +100,6 @@ function ShowHide(){
             break;
         case 1:
             TableHide(5);
-            break;
+            break ;
     };
 }
