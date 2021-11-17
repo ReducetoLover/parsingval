@@ -4,22 +4,27 @@
 <section>
     <div class="container">
         <div class="row">
+          <div class="row">
             <div class="offset-md-3 offset-lg-3 offset-xl-3 col-md-6">
                 <div class="block-1">
                     <div class="row text-center">
                         <div class="col-md-6">
                             <p class="currency-1">Валюта</p>
-                            <button class="current-but">USD</button>
-                            xyyxx
+                            <button onclick="ShowHide()" class="current-but">USD</button>
                         </div>
                         <div class="col-md-6">
                             <p class="currency-1">Курс ЦБ</p>
                             <p class="currency">70,08</p>
-                            <p class="low-text-currency">Рубль за доллар США</p>
+                        </div>
+                        <div class="col-md-12">
+                            <table  class="m-auto">
+                                <tbody id="tbl"></tbody>
+                            </table>
                         </div>
                     </div>
                 </div>
             </div>
+        </div>
         </div>
     </div>
 </section>
@@ -54,6 +59,7 @@
                         <tr><td class="table-rd currency-td date_0">&nbsp;</td><td class="table-rd currency-td cost_0">&nbsp;</td></tr>
 
                     </table>
+
                 </div>
             </div>
         </div>
@@ -67,4 +73,5 @@
 <script src="https://cdn.jsdelivr.net/npm/chart.js@3.6.0/dist/chart.min.js"></script>
 <script src="{% static '/js/Chart.js' %}"></script>
 <script src="{% static '/js/table.js' %}"></script>
+<script src="{% static '/js/select.js' %}"></script>
 {% endblock %}

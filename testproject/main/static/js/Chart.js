@@ -42,9 +42,10 @@ var CUR_WEEK = {
         values: [71.3,72,70,70,71,74,72.5]
     },
     QWE: {
-        dates: ["11.11.2021"],
-        values: [100]
+        dates: ["11.11.2021","12.11.2021"],
+        values: [100,99]
     }
+
 }
 var SELECTED_Currency = "EUR";
 var SELECTED_Period = CUR_WEEK;

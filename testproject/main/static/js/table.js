@@ -1,3 +1,4 @@
+
 var SELECTED_Currency ="EUR";
 var count=10;
 table();
@@ -62,3 +63,43 @@ $(document).ready(function() {
 
     });
 });
+var i = 0;
+var j = 0;
+var tables = document.getElementById("tbl");
+var newRow;
+var newCell;
+var flag=0;
+
+function TableShow(countRow){
+    for (i = 0; i < countRow; i++)
+    {
+        newRow = tables.insertRow(i);
+
+            newCell = newRow.insertCell(0);
+            newCell.innerHTML = Object.keys(CUR_WEEK)[i];
+            newCell.setAttribute('width','200');
+            newCell = newRow.insertCell(1);
+            newCell.innerHTML = Object.values(CUR_WEEK)[i].values[Object.values(CUR_WEEK)[i].values.length-1]+" руб";
+
+    };
+    flag = 1;
+};
+
+function TableHide(countRow){
+    for (i = countRow-1; i > -1; i--)
+    {
+        newRow = tables.deleteRow(i);
+    };
+    flag = 0;
+}
+
+function ShowHide(){
+    switch(flag){
+        case 0:
+            TableShow(5);
+            break;
+        case 1:
+            TableHide(5);
+            break;
+    };
+}
