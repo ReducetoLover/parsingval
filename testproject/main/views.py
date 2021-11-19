@@ -18,6 +18,9 @@ def stock(request):
 def currency(request):
     return render(request, 'main/currency.html', {'title': 'Валюты'})
 
+def chart(request):
+    return render(request, 'main/chart.html', {'title': 'Chart'})
+
 def create(request):
     error = ''
     if request.method == 'POST':
