@@ -1,8 +1,8 @@
-from django.shortcuts import render
 from .forms import TaskForm
 from django.shortcuts import render, redirect
-from .models import Curse, Stocks, task
-from testproject.MaterialDirectory.Parsing import dictionary_curse, dictionary_stock
+from .models import Curse, Stocks
+from .Parsing import dictionary_curse, dictionary_stock
+
 
 def index(request):
     return render(request, 'main/index.html', {'title': 'Главная страница'})
