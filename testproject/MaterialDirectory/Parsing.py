@@ -1,17 +1,8 @@
 import requests
 from bs4 import BeautifulSoup
-from localFile import intro_currency, curse_links_bankiru, curse_links_rbc, intro_stock, stock_links
-
-
-def curse_rbc(url):
-    response = requests.get(url)
-    soup = BeautifulSoup(response.text, 'lxml')
-    short_name = soup.find('span', class_="chart__info__name-short")
-    items = soup.find_all('span', class_="chart__info__sum")
-    for i in items:
-        item_name = short_name.text.strip()
-        item_price = i.text
-        print(f'{item_name} за {item_price}')
+import localFile as lF
+dictionary_curse = {}
+dictionary_stock = {}
 
 
 def curse_bankiru(url):
@@ -22,22 +13,23 @@ def curse_bankiru(url):
     for i in items:
         item_name = short_name.text.strip()
         item_price = i.text
-        print(f'{item_name} за {item_price}')
+        dictionary_curse[item_name] = item_price
 
 
 def stock(url):
     response = requests.get(url)
     soup = BeautifulSoup(response.text, 'lxml')
-    short_name = soup.find('div', class_="main-title main-title_light js-company")
-    items = soup.find_all('span', class_="chart__info__sum")
+    short_name = soup.find('h1', class_="text-2xl font-semibold instrument-header_title__GTWDv mobile:mb-2")
+    items = soup.find_all('span', class_="instrument-price_last__KQzyA")
     for i in items:
         item_name = short_name.text.strip()
         item_price = i.text
-        print(f'{item_name} за {item_price}')
+        dictionary_stock[item_name] = item_price
 
 
-# print(intro_currency)
-# [curse_rbc(curse_link) for curse_link in curse_links_rbc]
-# [curse_bankiru(curse_link) for curse_link in curse_links_bankiru]
-# print(intro_stock)
-# [stock(stock_link) for stock_link in stock_links]
+print(lF.intro_currency)
+[curse_bankiru(curse_link) for curse_link in lF.curse_links_bankiru]
+print(dictionary_curse)
+print(lF.intro_stock)
+[stock(stock_link) for stock_link in lF.stock_links]
+print(dictionary_stock)
