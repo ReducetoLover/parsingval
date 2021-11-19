@@ -1,7 +1,7 @@
 from django.db import models
 
 
-class Currency(models.Model):
+class Curse(models.Model):
     """Создание и описание таблицы валют."""
     date = models.DateField("Дата", auto_now=True)
     price = models.IntegerField("Цена")

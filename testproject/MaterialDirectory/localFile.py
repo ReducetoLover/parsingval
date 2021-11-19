@@ -1,5 +1,3 @@
-intro_currency = 'Курсы валют: '
-intro_stock = 'Курсы акций: '
 stock_links = ['https://ru.investing.com/equities/american-express',
 'https://ru.investing.com/equities/amgen-inc',
 'https://ru.investing.com/equities/3m-co',
@@ -51,8 +49,7 @@ stock_links = ['https://ru.investing.com/equities/american-express',
 'https://ru.investing.com/equities/philip-morris-intl',
 'https://ru.investing.com/equities/starbucks-corp']
 
-
-curse_links_bankiru = ['https://www.banki.ru/products/currency/usd/',
+curse_links = ['https://www.banki.ru/products/currency/usd/',
 'https://www.banki.ru/products/currency/pln/',
 'https://www.banki.ru/products/currency/aud/',
 'https://www.banki.ru/products/currency/azn/',
