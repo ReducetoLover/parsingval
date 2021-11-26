@@ -1,7 +1,8 @@
+
 from .forms import TaskForm
 from django.shortcuts import render, redirect
-from .models import Curse, Stocks
-from .Parsing import dictionary_curse, dictionary_stock
+import csv
+from django.http import HttpResponse
 
 
 def index(request):
