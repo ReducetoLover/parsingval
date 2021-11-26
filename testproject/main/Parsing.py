@@ -1,7 +1,19 @@
 import requests
 from bs4 import BeautifulSoup
+import datetime as dt
+import csv
 dictionary_curse = []
 dictionary_stock = []
+FILE_STOCKS = 'Stock.csv'
+FILE_CURSE = 'Curse.csv'
+
+
+def save_file(items, path):
+    with open(path, 'w', newline='') as file:
+        writer = csv.writer(file, delimiter=';')
+        writer.writerow(['Дата', 'Название', 'Валюта', 'Цена'])
+        for item in items:
+            writer.writerow([item['date'], item['name'], item['currency'], item['price']])
 
 
 def curse(url):
@@ -13,7 +25,9 @@ def curse(url):
         item_name = short_name.text.strip()
         item_price = i.text
         d = {
+            'date': dt.date.today(),
             'name': item_name,
+            'currency': '₽',
             'price': item_price
         }
         dictionary_curse.append(d)
@@ -28,7 +42,9 @@ def stocks(url):
         item_name = short_name.text.strip()
         item_price = i.text
         d = {
+            'date': dt.date.today(),
             'name': item_name,
+            'currency': '$',
             'price': item_price
         }
         dictionary_stock.append(d)
@@ -95,5 +111,8 @@ curse_links = ['https://www.banki.ru/products/currency/usd/',
 'https://www.banki.ru/products/currency/gbp/',
 'https://www.banki.ru/products/currency/chf/',
 'https://www.banki.ru/products/currency/brl/']
-# [curse(curse_link) for curse_link in curse_links]
-# [stocks(stock_link) for stock_link in stock_links]
+
+#[curse(curse_link) for curse_link in curse_links]
+#stocks(stock_link) for stock_link in stock_links]
+#save_file(dictionary_stock, FILE_STOCKS)
+#save_file(dictionary_curse, FILE_CURSE)

@@ -24,6 +24,14 @@ def chart(request):
     return render(request, 'main/chart.html', {'title': 'Chart'})
 
 
+def saving_currency(request):
+    return render(request, 'main/saving_currency.html', {'title': 'Saving currency'})
+
+
+def saving_stocks(request):
+    return render(request, 'main/saving_stocks.html', {'title': 'Saving stocks'})
+
+
 def create(request):
     error = ''
     if request.method == 'POST':
@@ -40,19 +48,3 @@ def create(request):
         'error': error
     }
     return render(request, 'main/create.html', context)
-
-
-def saving_currency():
-    cur = Curse()
-    for d in dictionary_curse:
-        cur.price = d['name']
-        cur.currency = d['price']
-        cur.save()
-
-
-def saving_stocks():
-    stocks = Stocks()
-    for d in dictionary_stock:
-        stocks.price = d['name']
-        stocks.currency = d['price']
-        stocks.save()
