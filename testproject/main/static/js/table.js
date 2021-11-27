@@ -20,6 +20,7 @@ function createtable()
 }
 function table()
 {
+
      SELECTED_Period = CUR_WEEK;
      Currency = () => SELECTED_Period[SELECTED_Currency];
     var a = Currency().dates.length-1;

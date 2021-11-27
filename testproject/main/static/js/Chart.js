@@ -113,6 +113,5 @@ $(document).ready(function() {
         SELECTED_Period = CUR_YEAR;
         changeChartData(myChart);
     });
-
 });
 

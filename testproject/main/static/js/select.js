@@ -19,6 +19,7 @@ $('.m-auto').hover(function() {
         TableHide(Object.keys(CUR_WEEK).length);
         $(".item").toggleClass('active');
     }
+
     };
 select();
 });
