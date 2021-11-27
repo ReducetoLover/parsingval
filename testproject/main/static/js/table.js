@@ -1,5 +1,5 @@
 
-var SELECTED_Currency ="EUR";
+var SELECTED_Currency ="USD";
 var count=10;
 table();
 function createtable()
@@ -63,17 +63,26 @@ $(document).ready(function() {
 
     });
 });
+
 var i = 0;
 var j = 0;
 var tables = document.getElementById("tbl");
+var tr;
 var newRow;
 var newCell;
 var flag=0;
 
-function TableShow(countRow){
+function TableShow(countRow)
+{
     for (i = 0; i < countRow; i++)
     {
-        newRow = tables.insertRow(i);
+        if (Object.keys(CUR_WEEK)[i]==SELECTED_Currency)
+        {
+        continue
+        }
+
+            newRow = tables.insertRow(-1);
+
 
             newCell = newRow.insertCell(0);
             newCell.innerHTML = Object.keys(CUR_WEEK)[i];
@@ -81,14 +90,18 @@ function TableShow(countRow){
             newCell = newRow.insertCell(1);
             newCell.innerHTML = Object.values(CUR_WEEK)[i].values[Object.values(CUR_WEEK)[i].values.length-1]+" руб";
 
-    };
-    flag = 1;
-};
+
+    }
+
+           // tr.classList.toggle('select');
+flag = 1;
+}
+
 
 function TableHide(countRow){
     for (i = countRow-1; i > -1; i--)
     {
-        newRow = tables.deleteRow(i);
+        newRow = tables.deleteRow(-1);
     };
     flag = 0;
 }
@@ -96,10 +109,12 @@ function TableHide(countRow){
 function ShowHide(){
     switch(flag){
         case 0:
-            TableShow(5);
+            TableShow(Object.keys(CUR_WEEK).length);
             break;
         case 1:
-            TableHide(5);
+            TableHide(Object.keys(CUR_WEEK).length);
             break ;
     };
 }
+
+

@@ -6,15 +6,23 @@
         <div class="row">
           <div class="row">
             <div class="offset-md-3 offset-lg-3 offset-xl-3 col-md-6">
+
                 <div class="block-1">
+
                     <div class="row text-center">
                         <div class="col-md-6">
                             <p class="currency-1">Валюта</p>
-                            <button onclick="ShowHide()" class="current-but">USD</button>
+                             <div class="vector">
+                                <button onclick="ShowHide()" class="current-but">
+                                <img class="item" src="{% static '/img/Vector.png'%}"></button>
+                            </div>
+                            <div class="current">
+                            <p id="currency" class="current-but">USD</p>
+                                </div>
                         </div>
                         <div class="col-md-6">
                             <p class="currency-1">Курс ЦБ</p>
-                            <p class="currency">70,08</p>
+                            <p id="price" class="currency">70,08</p>
                         </div>
                         <div class="col-md-12">
                             <table  class="m-auto">
@@ -74,4 +82,5 @@
 <script src="{% static '/js/Chart.js' %}"></script>
 <script src="{% static '/js/table.js' %}"></script>
 <script src="{% static '/js/select.js' %}"></script>
+<script src="{% static '/js/sel.js' %}"></script>
 {% endblock %}
