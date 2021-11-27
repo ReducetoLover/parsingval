@@ -91,7 +91,7 @@ options: {
 }
 });
 
-function changeChartData(chart) {
+function changeChartData(chart = myChart) {
     var C = chart.data;
     C.labels = Currency().dates;
     C.datasets[0].data = Currency().values;

@@ -24,5 +24,6 @@ urlpatterns = [
     path('currency', views.currency, name='currency'),
     path('chart', views.chart, name='chart'),
     path('saving_currency', views.saving_currency, name='saving_currency'),
-    path('saving_stocks', views.saving_stocks, name='saving_stocks')
+    path('saving_stocks', views.saving_stocks, name='saving_stocks'),
+    path('curse_csv', views.curse_csv, name='curse_csv'),
 ]

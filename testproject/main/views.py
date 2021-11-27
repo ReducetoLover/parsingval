@@ -32,6 +32,9 @@ def saving_currency(request):
 def saving_stocks(request):
     return render(request, 'main/saving_stocks.html', {'title': 'Saving stocks'})
 
+def curse_csv(request):
+    return render(request, 'main/Curse.csv', {'title': 'Curse'})
+
 
 def create(request):
     error = ''

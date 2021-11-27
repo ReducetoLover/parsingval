@@ -18,6 +18,9 @@ $('.m-auto').hover(function() {
         priceText.innerHTML=`${price}`;
         TableHide(Object.keys(CUR_WEEK).length);
         $(".item").toggleClass('active');
+
+        SELECTED_Currency = currency;
+        changeChartData();
     }
 
     };

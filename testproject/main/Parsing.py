@@ -4,8 +4,8 @@ import datetime as dt
 import csv
 dictionary_curse = []
 dictionary_stock = []
-FILE_STOCKS = 'Stock.csv'
-FILE_CURSE = 'saving_currency.html'
+FILE_STOCKS = 'templates/main/Stock.csv'
+FILE_CURSE = 'templates/main/Curse.csv'
 
 
 def save_file(items, path):
