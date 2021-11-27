@@ -1,0 +1,47 @@
+.select{
+width: 400px;
+margin: 0 auto;
+position: relative;
+}
+.select.is-active .select_body{
+display:block;
+}
+.select_header{
+border: 1px solid #ccc;
+cursor: pointer;
+display:flex;
+}
+.select_current{
+font-size:18px;
+line-height: 24px;
+padding: 8px;
+}
+.select_icon{
+align-items:center;
+display:flex;
+flex-shrink:0;
+justify-content:center;
+height: 40px;
+margin-left: auto;
+text-align: center;
+width: 40px;
+}
+.select_body{
+border: 1px solid #cccccc;
+border-top: 0;
+left: 0;
+display: none;
+position: absolute;
+right: 0;
+top: 100%;
+}
+.select-tr{
+cursor: pointer;
+font-size: 16px;
+
+padding: 8px;
+}
+.select-tr:hover{
+background-color: #f2f2f2;
+}
+
