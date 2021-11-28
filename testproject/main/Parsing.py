@@ -37,7 +37,7 @@ def stocks(url):
     response = requests.get(url)
     soup = BeautifulSoup(response.text, 'lxml')
     short_name = soup.find('h1', class_="text-2xl font-semibold instrument-header_title__GTWDv mobile:mb-2")
-    items = soup.find('span', class_="instrument-price_last__KQzyA")
+    items = soup.find('span', class_="text-2xl")
     for i in items:
         item_name = short_name.text.strip()
         item_price = i.text
@@ -112,8 +112,8 @@ curse_links = ['https://www.banki.ru/products/currency/usd/',
 'https://www.banki.ru/products/currency/chf/',
 'https://www.banki.ru/products/currency/brl/']
 
-[curse(curse_link) for curse_link in curse_links]
-save_file(dictionary_curse, FILE_CURSE)
+#[curse(curse_link) for curse_link in curse_links]
+#save_file(dictionary_curse, FILE_CURSE)
 
-#[stocks(stock_link) for stock_link in stock_links]
-#save_file(dictionary_stock, FILE_STOCKS)
+[stocks(stock_link) for stock_link in stock_links]
+save_file(dictionary_stock, FILE_STOCKS)
