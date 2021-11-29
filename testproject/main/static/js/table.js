@@ -16,13 +16,13 @@ function table()
 {
      SELECTED_Period = CUR_WEEK;
      Currency = () => SELECTED_Period[SELECTED_Currency];
-    var a = R[SELECTED_Currency].dates.length-1;
+    var a = Currency().dates.length-1;
 
 
 
 
 
-    while (a>=R[SELECTED_Currency].dates.length-7)
+    while (a>=Currency().dates.length-7)
     {
 
         var i =".date_"+ count;
@@ -31,7 +31,7 @@ function table()
 
             var date= document.querySelector(i);
             var cost= document.querySelector(k);
-            if (R[SELECTED_Currency].dates[a]==undefined && R[SELECTED_Currency].values[a]==undefined)
+            if (Currency().dates[a]==undefined && R[SELECTED_Currency].values[a]==undefined)
             {
 
                //date.remove();
@@ -40,8 +40,8 @@ function table()
             }
             else
             {
-                date.innerHTML=`${R[SELECTED_Currency].dates[a]}`;
-                cost.innerHTML=`${R[SELECTED_Currency].values[a]} руб`;
+                date.innerHTML=`${Currency().dates[a]}`;
+                cost.innerHTML=`${Currency().values[a]} руб`;
             }
             count--;
             a--;
