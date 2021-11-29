@@ -87,8 +87,10 @@ function TableShow(countRow)
 
             newCell = newRow.insertCell(0);
             newCell.innerHTML = Object.keys(CUR_WEEK)[i];
-            newCell.setAttribute('width','200');
+            newCell.setAttribute('width','150');
+            newCell.setAttribute('class','currency-spisok-values');
             newCell = newRow.insertCell(1);
+            newCell.setAttribute('class','currency-spisok-rubls');
             newCell.innerHTML = Object.values(CUR_WEEK)[i].values[Object.values(CUR_WEEK)[i].values.length-1]+" руб";
 
 
