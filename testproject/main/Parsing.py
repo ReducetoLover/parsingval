@@ -9,7 +9,7 @@ FILE_CURSE = 'templates/main/Curse.csv'
 
 
 def save_file(items, path):
-    with open(path, 'w', newline='', encoding="utf-8") as file:
+    with open(path, 'a+', newline='', encoding="utf-8") as file:
         writer = csv.writer(file, delimiter=';')
         writer.writerow(['Дата', 'Название', 'Валюта', 'Цена'])
         for item in items:
@@ -112,8 +112,8 @@ curse_links = ['https://www.banki.ru/products/currency/usd/',
 'https://www.banki.ru/products/currency/chf/',
 'https://www.banki.ru/products/currency/brl/']
 
-#[curse(curse_link) for curse_link in curse_links]
-#save_file(dictionary_curse, FILE_CURSE)
+[curse(curse_link) for curse_link in curse_links]
+save_file(dictionary_curse, FILE_CURSE)
 
-[stocks(stock_link) for stock_link in stock_links]
-save_file(dictionary_stock, FILE_STOCKS)
+#[stocks(stock_link) for stock_link in stock_links]
+#save_file(dictionary_stock, FILE_STOCKS)

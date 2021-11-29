@@ -1,15 +1,9 @@
-
-var SELECTED_Currency ="USD";
-var count=10;
+var count=6;
 table();
 function createtable()
 {
     const table=document.querySelector(".table-border");
     table.innerHTML=`<tr><td class="table-rad currency-td"><b>Дата</b></td><td class="table-rad currency-td"><b>Курс</b></td></tr>
-                        <tr><td class="table-rd currency-td date_10">&nbsp;</td><td class="table-rd currency-td cost_10">&nbsp;</td></tr>
-                        <tr><td class="table-rd currency-td date_9">&nbsp;</td><td class="table-rd currency-td cost_9">&nbsp;</td></tr>
-                        <tr><td class="table-rd currency-td date_8" >&nbsp;</td><td class="table-rd currency-td cost_8">&nbsp;</td></tr>
-                        <tr><td class="table-rd currency-td date_7">&nbsp;</td><td class="table-rd currency-td cost_7">&nbsp;</td></tr>
                         <tr><td class="table-rd currency-td date_6">&nbsp;</td><td class="table-rd currency-td cost_6">&nbsp;</td></tr>
                         <tr><td class="table-rd currency-td date_5">&nbsp;</td><td class="table-rd currency-td cost_5">&nbsp;</td></tr>
                         <tr><td class="table-rd currency-td date_4">&nbsp;</td><td class="table-rd currency-td cost_4">&nbsp;</td></tr>
@@ -20,19 +14,17 @@ function createtable()
 }
 function table()
 {
-
      SELECTED_Period = CUR_WEEK;
      Currency = () => SELECTED_Period[SELECTED_Currency];
     var a = Currency().dates.length-1;
-    console.log(a);
 
 
 
-    while (a>=Currency().dates.length-11)
+
+    while (a>=Currency().dates.length-7)
     {
 
         var i =".date_"+ count;
-
         var k = ".cost_"+ count;
         {
 
@@ -47,8 +39,8 @@ function table()
             }
             else
             {
-            date.innerHTML=`${Currency().dates[a]}`;
-            cost.innerHTML=`${Currency().values[a]} руб`;
+                date.innerHTML=`${Currency().dates[a]}`;
+                cost.innerHTML=`${Currency().values[a]} руб`;
             }
             count--;
             a--;
@@ -56,9 +48,10 @@ function table()
     }
 }
 $(document).ready(function() {
-    $('.dropdown-item').click(function () {
-        SELECTED_Currency = $(this).html();
-         count=10;
+    $('.currency').click(function () {
+        SELECTED_Currency = $(this).find("td").eq(0).html();
+        console.log(1);
+         count=6;
          createtable();
          table();
 
@@ -77,7 +70,7 @@ function TableShow(countRow)
 {
     for (i = 0; i < countRow; i++)
     {
-        if (Object.keys(CUR_WEEK)[i]==SELECTED_Currency)
+        if (Object.keys(R)[i]==SELECTED_Currency)
         {
         continue
         }
@@ -86,10 +79,11 @@ function TableShow(countRow)
 
 
             newCell = newRow.insertCell(0);
-            newCell.innerHTML = Object.keys(CUR_WEEK)[i];
+
+            newCell.innerHTML = Object.keys(R)[i];
             newCell.setAttribute('width','200');
             newCell = newRow.insertCell(1);
-            newCell.innerHTML = Object.values(CUR_WEEK)[i].values[Object.values(CUR_WEEK)[i].values.length-1]+" руб";
+            newCell.innerHTML = Object.values(R)[i].values[Object.values(R)[i].values.length-1]+" руб";
 
 
     }
@@ -110,10 +104,10 @@ function TableHide(countRow){
 function ShowHide(){
     switch(flag){
         case 0:
-            TableShow(Object.keys(CUR_WEEK).length);
+            TableShow(Object.keys(R).length);
             break;
         case 1:
-            TableHide(Object.keys(CUR_WEEK).length);
+            TableHide(Object.keys(R).length);
             break ;
     };
 }

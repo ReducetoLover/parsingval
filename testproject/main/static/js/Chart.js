@@ -1,3 +1,4 @@
+
 var ctx = document.getElementById('myChart').getContext('2d');
 
 
@@ -47,54 +48,59 @@ var CUR_WEEK = {
     }
 
 }
-var SELECTED_Currency = "EUR";
+var SELECTED_Currency = "USD";
 var SELECTED_Period = CUR_WEEK;
 var Currency = () => SELECTED_Period[SELECTED_Currency];
 
-
-
-var data = {
-labels: Currency().dates,
-datasets: [
+function FirstDraw()
 {
-    label: "Стоимость",
-    lineTension: 0,
-    backgroundColor: ["rgba(6,128,153,255)"],
-    borderColor: "rgba(21,21,49,255)",
-    borderWidth: 2,
-    hoverOffset: 4,
-    pointStyle: 'star',
-    pointRadius: 3,
-    pointBackgroundColor: "#535353",
-    pointBorderColor: "rgba(6,128,153,255)",
-    data: Currency().values
-}
-]
-};
-
-
-var myChart =
-new Chart(document.getElementById('myChart'), {
-type: 'line',
-data: data,
-options: {
-    animation: true,
-    plugins:{
-        legend: {
-        display: true,
-        labels: {color: 'rgba(21,21,49,255)'}
+    var data = {
+    labels: R[SELECTED_Currency].dates,
+        datasets: [
+        {
+            label: "Стоимость",
+            lineTension: 0,
+            backgroundColor: ["rgba(6,128,153,255)"],
+            borderColor: "rgba(21,21,49,255)",
+            borderWidth: 2,
+            hoverOffset: 4,
+            pointStyle: 'star',
+            pointRadius: 3,
+            pointBackgroundColor: "#535353",
+            pointBorderColor: "rgba(6,128,153,255)",
+            data: R[SELECTED_Currency].values
         }
-    },
-    maintainAspectRatio: true,
-    responsive: true,
-    responsiveAnimationDuration: 0
+           ]
+    };
+    myChart =
+    new Chart(document.getElementById('myChart'), {
+    type: 'line',
+    data: data,
+    options: {
+        animation: true,
+        plugins:{
+            legend: {
+            display: true,
+            labels: {color: 'rgba(21,21,49,255)'}
+            }
+        },
+        maintainAspectRatio: true,
+        responsive: true,
+        responsiveAnimationDuration: 0
+    }
+    });
 }
-});
+
+console.log(R);
+
+
+
+var myChart;
 
 function changeChartData(chart = myChart) {
     var C = chart.data;
-    C.labels = Currency().dates;
-    C.datasets[0].data = Currency().values;
+    C.labels = R[SELECTED_Currency].dates;
+    C.datasets[0].data = R[SELECTED_Currency].values;
     chart.update();
 }
 
