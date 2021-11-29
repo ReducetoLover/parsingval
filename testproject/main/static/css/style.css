@@ -7,13 +7,13 @@ body{
 }
 .currency-spisok-values{
     font-family: 'Montserrat';
-    font-size: 20px;
+    font-size: 28px;
     font-weight: Bold;
     padding: 5px 30px;
 }
 .currency-spisok-rubls{
     font-family: 'Montserrat';
-    font-size: 20px;
+    font-size: 28px;
     text-align:center;
     padding-left: 80px;
 }
@@ -253,7 +253,7 @@ h2{
     }
     .line-1{
         width: 73%;
-    }
+    }  
     .currency-1{
         font-size: 25px;
     }
@@ -296,7 +296,7 @@ h2{
         max-height: 500px;
     }
     .currency-td{
-        font-size: 25px;
+        font-size: 25px; 
     }
     .table-rad{
         padding: 15px 60px;
@@ -398,7 +398,7 @@ h2{
         padding-left: 200%;
     }
     button{
-
+   
         border-radius: 20px;
         padding:10px 40px;
         font-size: 15px;
