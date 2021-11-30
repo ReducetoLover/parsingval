@@ -1,5 +1,5 @@
 var count=6;
-table();
+
 function createtable()
 {
     const table=document.querySelector(".table-border");
@@ -14,13 +14,7 @@ function createtable()
 }
 function table()
 {
-     SELECTED_Period = CUR_WEEK;
-     Currency = () => SELECTED_Period[SELECTED_Currency];
     var a = Currency().dates.length-1;
-
-
-
-
 
     while (a>=Currency().dates.length-7)
     {
