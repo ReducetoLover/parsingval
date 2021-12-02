@@ -2,6 +2,10 @@ var R = {};
 var R_week = {};
 var R_year = {};
 
+var SELECTED_Currency = location.pathname == "/currency" ? "USD" : "Apple Inc (AAPL)";
+var SELECTED_Period = R_week;
+var Currency = () => SELECTED_Period[SELECTED_Currency];
+
 function getWeek() {
     Object.keys(R).forEach((e) => {
         R_week[e] = checkWeek(R[e]);
@@ -16,7 +20,7 @@ let toArr = {};
 
 for (var minusDay=6; minusDay>=0; minusDay--){
 
-    var yesterday = date - 1000 * 60 * 60 * 24 * minusDay;   // current date's milliseconds - 1,000 ms * 60 s * 60 mins * 24 hrs * (# of days beyond one to go back)
+    var yesterday = date - 1000 * 60 * 60 * 24 * minusDay;
     var nDay = new Date(yesterday);
     let index = arr.dates.indexOf(nDay.toJSON().slice(0, 10));
 
@@ -78,9 +82,10 @@ function checkMonth(arr) {
 }
 
 $(document).ready(function() {
+    var url = location.pathname == "/currency" ? "curse_csv" : "stock_csv";
     $.ajax({
         type: "GET",
-        url: "curse_csv",
+        url: url,
         dataType: "text",
         success: function(data) {
             parse(data);

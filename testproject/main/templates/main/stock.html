@@ -1,6 +1,7 @@
 {% extends 'main/base.html' %}
-
+{% load static %}
 {% block body %}
+<!--
 <section>
     <div class="container">
         <div class="row">
@@ -22,7 +23,85 @@
         </div>
     </div>
 </section>
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+-->
+<section>
+    <div class="container">
+        <div class="row">
+          <div class="row">
+            <div class="offset-md-3 offset-lg-3 offset-xl-3 col-md-6">
+
+                <div class="block-1">
+
+                    <div class="row text-center">
+                        <div class="col-md-6">
+                            <p class="currency-1">Акция</p>
+                             <div class="vector">
+                                <button onclick="ShowHide()" class="current-but">
+                                <img class="item" src="{% static '/img/Vector.png'%}"></button>
+                            </div>
+                            <div class="current">
+                            <p id="currency" class="current-but">Газпром</p>
+                                </div>
+                        </div>
+                        <div class="col-md-6">
+                            <p class="currency-1">Курс ФР</p>
+                            <p id="price" class="currency">70,08 руб</p>
+                        </div>
+                        <div class="col-md-12">
+                            <table  class="m-auto t_select">
+                                <tbody id="tbl"></tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </div>
+</section>
+<section>
+    <div class="container">
+        <div class="row">
+            <div class="col-8">
+                <p class="under-text-graph">Динамика курса</p>
+                <div class="block-graph">
+                    <div class="pad-d">
+                        <button id="WEEKbutton" class="button-day">Неделя</button>
+                        <button id="YEARbutton" class="button-day">Год</button>
+                    </div>
+                        <canvas width="850" height="500" id="myChart"></canvas>
+                </div>
+            </div >
+            <div class="col-4">
+                <p class="under-text-graph">Динамика курса за неделю</p>
+                <div class="block-table text-center">
+                    <table class="table-border">
+                        <tr><td class="table-rad currency-td"><b>Дата</b></td><td class="table-rad currency-td"><b>Курс</b></td></tr>
+
+                        <tr><td class="table-rd currency-td date_6">&nbsp;</td><td class="table-rd currency-td cost_6">&nbsp;</td></tr>
+                        <tr><td class="table-rd currency-td date_5">&nbsp;</td><td class="table-rd currency-td cost_5">&nbsp;</td></tr>
+                        <tr><td class="table-rd currency-td date_4">&nbsp;</td><td class="table-rd currency-td cost_4">&nbsp;</td></tr>
+                        <tr><td class="table-rd currency-td date_3">&nbsp;</td><td class="table-rd currency-td cost_3">&nbsp;</td></tr>
+                        <tr><td class="table-rd currency-td date_2">&nbsp;</td><td class="table-rd currency-td cost_2">&nbsp;</td></tr>
+                        <tr><td class="table-rd currency-td date_1">&nbsp;</td><td class="table-rd currency-td cost_1">&nbsp;</td></tr>
+                        <tr><td class="table-rd currency-td date_0">&nbsp;</td><td class="table-rd currency-td cost_0">&nbsp;</td></tr>
+
+                    </table>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/papaparse@latest/papaparse.min.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js@3.6.0/dist/chart.min.js"></script>
+<script src="{% static '/js/scv_to_json.js' %}"></script>
+<script src="{% static '/js/Chart.js' %}"></script>
+<script src="{% static '/js/table.js' %}"></script>
+<script src="{% static '/js/select.js' %}"></script>
+
 {% endblock %}

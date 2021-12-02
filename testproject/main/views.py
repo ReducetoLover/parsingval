@@ -35,6 +35,9 @@ def saving_stocks(request):
 def curse_csv(request):
     return render(request, 'main/Curse.csv', {'title': 'Curse'})
 
+def stock_csv(request):
+    return render(request, 'main/Stock.csv', {'title': 'Stock'})
+
 
 def create(request):
     error = ''

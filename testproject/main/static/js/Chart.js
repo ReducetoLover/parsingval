@@ -1,9 +1,4 @@
-
 var ctx = document.getElementById('myChart').getContext('2d');
-
-var SELECTED_Currency = "USD";
-var SELECTED_Period = R_week;
-var Currency = () => SELECTED_Period[SELECTED_Currency];
 
 function FirstDraw()
 {
@@ -45,8 +40,6 @@ function FirstDraw()
 }
 
 console.log(R);
-
-
 
 var myChart;
 
