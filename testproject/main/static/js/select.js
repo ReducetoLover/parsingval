@@ -1,5 +1,7 @@
 $('.vector .item').on("click",function(){
+    $("#scroll").toggleClass('activescroll');
     $(".item").toggleClass('active');
+
 });
 $('.t_select').hover(function() {
   $(this).children('tbody').children('tr').toggleClass('select-tr');
@@ -18,6 +20,7 @@ $('.t_select').hover(function() {
         priceText.innerHTML=price;
         TableHide(Object.keys(R).length);
         $(".item").toggleClass('active');
+        $("#scroll").toggleClass('activescroll');
         SELECTED_Currency = currency;
         changeChartData();
         count=6;

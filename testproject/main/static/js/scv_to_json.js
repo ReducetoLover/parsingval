@@ -107,6 +107,7 @@ function parse(d) {
             getWeek();
             getYear();
             FirstDraw();
+            CurrentValue();
             table();
             console.log(R);
         }}
