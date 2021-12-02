@@ -17,6 +17,7 @@ var date = new Date();
 let toArr = {};
     toArr.dates = [];
     toArr.values = [];
+    toArr.valuta = [];
 
 for (var minusDay=6; minusDay>=0; minusDay--){
 
@@ -27,6 +28,7 @@ for (var minusDay=6; minusDay>=0; minusDay--){
     if(index >= 0){
         toArr.dates.push(arr.dates[index]);
         toArr.values.push(arr.values[index]);
+        toArr.valuta.push(arr.valuta[index]);
     }
 }
 
@@ -51,6 +53,7 @@ function checkMonth(arr) {
     let toArr = {};
     toArr.dates = [];
     toArr.values = [];
+    toArr.valuta = [];
 
     arr.dates.map((date, i) => {
         if(y !== date.split('-')[0]) return;
@@ -67,6 +70,7 @@ function checkMonth(arr) {
 
             count = 0;
             toArr.dates.push(m);
+            toArr.valuta.push(arr.valuta[i]);
         }
         sum += arr.values[i]*1;
         count++;
@@ -104,8 +108,11 @@ function parse(d) {
             R[results.data[1]] = R[results.data[1]] || {};
             R[results.data[1]].dates = R[results.data[1]].dates || [];
             R[results.data[1]].values =  R[results.data[1]].values || [];
+            R[results.data[1]].valuta =  R[results.data[1]].valuta || [];
+
             R[results.data[1]].dates.push(results.data[0]);
-            R[results.data[1]].values.push(results.data[3].replace(",", "."));
+            R[results.data[1]].valuta.push(results.data[2]);
+            R[results.data[1]].values.push(results.data[3].replace(".", "").replace(",", "."));
 
         },
         complete: function(results, file) {

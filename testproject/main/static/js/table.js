@@ -79,7 +79,7 @@ function TableShow(countRow)
             newCell.setAttribute('class','currency-spisok-values');
             newCell = newRow.insertCell(1);
             newCell.setAttribute('class','currency-spisok-rubls');
-            newCell.innerHTML = Object.values(R)[i].values[Object.values(R)[i].values.length-1]+" руб";
+            newCell.innerHTML = Object.values(R)[i].values[Object.values(R)[i].values.length-1]+" "+Object.values(R)[i].valuta[Object.values(R)[i].valuta.length-1];
 
 
 
