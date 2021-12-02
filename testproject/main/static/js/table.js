@@ -35,7 +35,7 @@ function table()
             else
             {
                 date.innerHTML=`${Currency().dates[a]}`;
-                cost.innerHTML=`${Currency().values[a]} руб`;
+                cost.innerHTML=`${Currency().values[a]} ${Currency().valuta[a]}`;
             }
             count--;
             a--;
