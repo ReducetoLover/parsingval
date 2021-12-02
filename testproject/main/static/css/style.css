@@ -26,8 +26,7 @@ body{
      transform: rotate(180deg)
 
 }
-
-.current-but{
+.current-b{
     background-color: white;
     border:none;
     font-size: 28px;
@@ -35,6 +34,27 @@ body{
     text-align: center;
     font-weight: bold;
     padding: 0px;
+    margin-left:-10px;
+}
+.current-but{
+    background-color: white;
+    border:none;
+    margin-left: 10px;
+    font-size: 28px;
+    font-family: 'Montserrat';
+    text-align: center;
+    font-weight: bold;
+    padding: 0px;
+}
+.current-but-fuc{
+background-color: white;
+    border:none;
+    margin-left: 30px;
+    font-size: 28px;
+    font-family: 'Montserrat';
+    text-align: center;
+    font-weight: bold;
+    padding-left: 15px;
 }
 .stock-but{
     background-color: white;
@@ -121,6 +141,15 @@ h2{
 .block-1{
     margin-top: 55px;
     width: 420px;
+    min-height: 140px;
+    border-radius: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+}
+.block-1-stock{
+    margin-top: 55px;
+    width: 620px;
     min-height: 140px;
     border-radius: 20px;
     margin-left: auto;
@@ -225,7 +254,7 @@ h2{
     margin-left: 8%;
 }
 .pad-d{
-    margin-left: 55%;
+    margin-left: 40%;
 }
 @media screen and (max-width:1399px){
     .vector{
@@ -312,6 +341,14 @@ h2{
         text-align: center;
         font-weight: bold;
     }
+    .current-but-fuc{
+        background-color: white;
+        border:none;
+        font-size: 25px;
+        font-family: 'Montserrat';
+        text-align: center;
+        font-weight: bold;
+    }
     .stock-but{
         background-color: white;
         border:none;
@@ -321,6 +358,10 @@ h2{
         font-weight: bold;
         padding:2px 20px;
     }
+    .block-1-stock{
+        width: 415,4px;
+        min-height: 120px;
+}
 }
 
 
@@ -379,6 +420,9 @@ h2{
     padding:5px 25px;
     font-size: 12px;
 }
+.current-b{
+    margin-left:-5px;
+}
 }
 @media screen and (max-width:991px){
     .item{
@@ -419,23 +463,28 @@ h2{
         width: 300px;
         min-height: 100px;
     }
+    .block-1-stock{
+        width: 290px;
+        min-height: 100px;
+    }
     .currency-1{
         font-size: 20px;
+        padding-left:20px;
     }
     .stock-1{
         font-size: 20px;
     }
     .currency{
-        font-size: 20px;
+        font-size: 16px;
     }
     .currency-spisok-values{
     text-align:left;
-        padding: 5px 10px;
-        font-size: 20px;
+        padding-left: 20px;
+        font-size: 16px;
     }
     .currency-spisok-rubls{
         padding: 0px;
-        font-size: 20px;
+        font-size: 16px;
     }
     .stock{
         font-size: 20px;
@@ -475,7 +524,15 @@ h2{
     .current-but{
         background-color: white;
         border:none;
-        font-size: 20px;
+        font-size: 16px;
+        font-family: 'Montserrat';
+        text-align: center;
+        font-weight: bold;
+    }
+    .current-but-fuc{
+    background-color: white;
+        border:none;
+        font-size: 16px;
         font-family: 'Montserrat';
         text-align: center;
         font-weight: bold;
