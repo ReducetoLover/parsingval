@@ -110,7 +110,8 @@ function ShowHide(){
 }
 function CurrentValue(){
     $("#currency").html(SELECTED_Currency);
-    $("#price").html(Currency().values[Currency().values.length-1]);
+    $("#price").prepend(Currency().values[Currency().values.length-1]);
 }
+
 
 
