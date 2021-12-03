@@ -39,6 +39,7 @@ function FirstDraw()
     });
 }
 
+
 console.log(R);
 
 var myChart;
