@@ -14,9 +14,6 @@
 {% block nav-global %}
 <form method="post">
     {% csrf_token %}
-    <button style="
-    background-color: light-blue;
-    color: black;
-    border: 2px solid black;" type="submit" name="script">Обновить данные</button>
+    <button type="submit" class="btn btn-success" name="script">Обновить данные</button>
 </form>
 {% endblock %}
