@@ -112,8 +112,11 @@ curse_links = ['https://www.banki.ru/products/currency/usd/',
 'https://www.banki.ru/products/currency/chf/',
 'https://www.banki.ru/products/currency/brl/']
 
-[curse(curse_link) for curse_link in curse_links]
-save_file(dictionary_curse, FILE_CURSE)
 
-[stocks(stock_link) for stock_link in stock_links]
-save_file(dictionary_stock, FILE_STOCKS)
+def run():
+    [curse(curse_link) for curse_link in curse_links]
+    save_file(dictionary_curse, FILE_CURSE)
+    [stocks(stock_link) for stock_link in stock_links]
+    save_file(dictionary_stock, FILE_STOCKS)
+
+run()

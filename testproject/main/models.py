@@ -7,6 +7,7 @@ class Curse(models.Model):
     price = models.IntegerField("Цена")
     rub = models.CharField("Валюта покупки", default='₽', max_length=2)  # За какую валюту, покупается валюта
     currency = models.CharField("Валюта продажи", max_length=20)  # Валюта, которую мы покупаем
+
     class Meta:
         verbose_name = 'Курс валют'
         verbose_name_plural = 'Курсы валют'

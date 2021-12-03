@@ -55,7 +55,7 @@ ROOT_URLCONF = 'testproject.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [os.path.join(BASE_DIR, 'C:/Users/t3ma/PycharmProjects/site/testproject/main/templates/main')],
+        'DIRS': [os.path.join(BASE_DIR, 'main/templates')],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [

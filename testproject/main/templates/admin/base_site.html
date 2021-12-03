@@ -1,0 +1,22 @@
+{% extends "admin/base.html" %}
+{% load static %}
+
+{% block extrastyle %}
+<link rel="stylesheet" href="{% static 'css/admin.css'  %}">
+{% endblock %}
+
+{% block title %}{{ title }} | {{ site_title|default:_('Django site admin') }}{% endblock %}
+
+{% block branding %}
+<h1 id="site-name"><a href="{% url 'admin:index' %}">{{ site_header|default:_('Django administration') }}</a></h1>
+{% endblock %}
+
+{% block nav-global %}
+<form method="post">
+    {% csrf_token %}
+    <button style="
+    background-color: light-blue;
+    color: black;
+    border: 2px solid black;" type="submit" name="script">Обновить данные</button>
+</form>
+{% endblock %}

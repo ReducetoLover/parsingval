@@ -1,4 +1,3 @@
-
 from .forms import TaskForm
 from django.shortcuts import render, redirect
 import csv
@@ -32,11 +31,19 @@ def saving_currency(request):
 def saving_stocks(request):
     return render(request, 'main/saving_stocks.html', {'title': 'Saving stocks'})
 
+
 def curse_csv(request):
     return render(request, 'main/Curse.csv', {'title': 'Curse'})
 
+
 def stock_csv(request):
     return render(request, 'main/Stock.csv', {'title': 'Stock'})
+
+
+def run(request):
+    if request.method == 'POST' and 'script' in request.POST:
+        from .Parsing import run
+        run()
 
 
 def create(request):
