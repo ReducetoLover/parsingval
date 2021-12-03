@@ -28,7 +28,7 @@ function FirstDraw()
         animation: true,
         plugins:{
             legend: {
-            display: true,
+            display: false,
             labels: {color: 'rgba(21,21,49,255)'}
             }
         },
