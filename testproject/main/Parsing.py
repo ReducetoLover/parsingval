@@ -119,4 +119,4 @@ def run():
     [stocks(stock_link) for stock_link in stock_links]
     save_file(dictionary_stock, FILE_STOCKS)
 
-run()
+#run()
