@@ -7,6 +7,9 @@ class Curse(models.Model):
     price = models.IntegerField("Цена")
     rub = models.CharField("Валюта покупки", default='₽', max_length=2)  # За какую валюту, покупается валюта
     currency = models.CharField("Валюта продажи", max_length=20)  # Валюта, которую мы покупаем
+    class Meta:
+        verbose_name = 'Курс валют'
+        verbose_name_plural = 'Курсы валют'
 
 
 class Stocks(models.Model):
@@ -15,6 +18,10 @@ class Stocks(models.Model):
     price = models.IntegerField("Цена")
     dlr = models.CharField("Валюта покупки", default='$', max_length=2)  # За какую валюту, покупаются акции
     currency = models.CharField("Акции", max_length=20)   # Акции, которые мы покупаем
+
+    class Meta:
+        verbose_name = 'Акция'
+        verbose_name_plural = 'Акции'
 
 
 class task(models.Model):

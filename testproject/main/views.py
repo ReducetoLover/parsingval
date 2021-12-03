@@ -26,7 +26,7 @@ def chart(request):
 
 
 def saving_currency(request):
-    return render(request, 'main/saving_currency.html', {'title': 'Saving currency'})
+    return render(request, 'main/saving_currency.html', {'title': 'Saving currency  '})
 
 
 def saving_stocks(request):
