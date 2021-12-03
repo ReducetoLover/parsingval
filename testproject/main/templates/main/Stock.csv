@@ -99,7 +99,156 @@
 2021-12-03;Amazon.com Inc (AMZN);$;3.455,00
 2021-12-03;Philip Morris International Inc (PM);$;88,67
 2021-12-03;Starbucks Corporation (SBUX);$;111,70
-Дата;Название;Валюта;Цена
+2021-12-03;American Express Company (AXP);$;156,77
+2021-12-03;Amgen Inc (AMGN);$;201,17
+2021-12-03;3M Company (MMM);$;170,26
+2021-12-03;Apple Inc (AAPL);$;163,76
+2021-12-03;Boeing Co (BA);$;202,38
+2021-12-03;Caterpillar Inc (CAT);$;196,79
+2021-12-03;Chevron Corp (CVX);$;115,14
+2021-12-03;Coca-Cola Co (KO);$;53,07
+2021-12-03;Dow Inc (DOW);$;53,18
+2021-12-03;Goldman Sachs Group Inc (GS);$;387,54
+2021-12-03;Home Depot Inc (HD);$;407,77
+2021-12-03;Honeywell International Inc (HON);$;204,00
+2021-12-03;International Business Machines (IBM);$;116,90
+2021-12-03;Intel Corporation (INTC);$;49,50
+2021-12-03;Johnson & Johnson (JNJ);$;157,09
+2021-12-03;JPMorgan Chase & Co (JPM);$;161,21
+2021-12-03;McDonald’s Corporation (MCD);$;248,80
+2021-12-03;Merck & Company Inc (MRK);$;73,89
+2021-12-03;Microsoft Corporation (MSFT);$;329,49
+2021-12-03;Nike Inc (NKE);$;170,00
+2021-12-03;Procter & Gamble Company (PG);$;147,26
+2021-12-03;Salesforce.com Inc (CRM);$;261,20
+2021-12-03;The Travelers Companies Inc (TRV);$;150,16
+2021-12-03;UnitedHealth Group Incorporated (UNH);$;446,02
+2021-12-03;Verizon Communications Inc (VZ);$;50,73
+2021-12-03;Visa Inc Class A (V);$;198,29
+2021-12-03;Walgreens Boots Alliance Inc (WBA);$;44,62
+2021-12-03;Walmart Inc (WMT);$;135,47
+2021-12-03;Walt Disney Company (DIS);$;147,20
+2021-12-03;Ford Motor Company (F);$;19,87
+2021-12-03;NVIDIA Corporation (NVDA);$;321,26
+2021-12-03;Cisco Systems Inc (CSCO);$;56,15
+2021-12-03;Vale SA ADR (VALE);$;12,99
+2021-12-03;Pfizer Inc (PFE);$;53,04
+2021-12-03;Bank of America Corp (BAC);$;44,89
+2021-12-03;Activision Blizzard Inc (ATVI);$;57,29
+2021-12-03;General Motors Company (GM);$;61,02
+2021-12-03;Tesla Inc (TSLA);$;1.084,60
+2021-12-03;United States Steel Corporation (X);$;22,38
+2021-12-03;Micron Technology Inc (MU);$;82,88
+2021-12-03;Transocean Ltd (RIG);$;2,920
+2021-12-03;Western Union Co (WU);$;17,15
+2021-12-03;Discovery Communications C Inc (DISCK);$;22,67
+2021-12-03;Altria Group (MO);$;43,21
+2021-12-03;Coterra Energy Inc (CTRA);$;20,23
+2021-12-03;JetBlue Airways Corp (JBLU);$;13,85
+2021-12-03;Oracle Corporation (ORCL);$;89,99
+2021-12-03;Amazon.com Inc (AMZN);$;3.437,36
+2021-12-03;Philip Morris International Inc (PM);$;87,84
+2021-12-03;Starbucks Corporation (SBUX);$;111,42
+2021-12-03;American Express Company (AXP);$;156,77
+2021-12-03;Amgen Inc (AMGN);$;201,17
+2021-12-03;3M Company (MMM);$;170,26
+2021-12-03;Apple Inc (AAPL);$;163,76
+2021-12-03;Boeing Co (BA);$;202,38
+2021-12-03;Caterpillar Inc (CAT);$;196,79
+2021-12-03;Chevron Corp (CVX);$;115,14
+2021-12-03;Coca-Cola Co (KO);$;53,07
+2021-12-03;Dow Inc (DOW);$;53,18
+2021-12-03;Goldman Sachs Group Inc (GS);$;387,54
+2021-12-03;Home Depot Inc (HD);$;407,77
+2021-12-03;Honeywell International Inc (HON);$;204,00
+2021-12-03;International Business Machines (IBM);$;116,90
+2021-12-03;Intel Corporation (INTC);$;49,50
+2021-12-03;Johnson & Johnson (JNJ);$;157,09
+2021-12-03;JPMorgan Chase & Co (JPM);$;161,21
+2021-12-03;McDonald’s Corporation (MCD);$;248,80
+2021-12-03;Merck & Company Inc (MRK);$;73,89
+2021-12-03;Microsoft Corporation (MSFT);$;329,49
+2021-12-03;Nike Inc (NKE);$;170,00
+2021-12-03;Procter & Gamble Company (PG);$;147,26
+2021-12-03;Salesforce.com Inc (CRM);$;261,20
+2021-12-03;The Travelers Companies Inc (TRV);$;150,16
+2021-12-03;UnitedHealth Group Incorporated (UNH);$;446,02
+2021-12-03;Verizon Communications Inc (VZ);$;50,73
+2021-12-03;Visa Inc Class A (V);$;198,29
+2021-12-03;Walgreens Boots Alliance Inc (WBA);$;44,62
+2021-12-03;Walmart Inc (WMT);$;135,47
+2021-12-03;Walt Disney Company (DIS);$;147,20
+2021-12-03;Ford Motor Company (F);$;19,87
+2021-12-03;NVIDIA Corporation (NVDA);$;321,26
+2021-12-03;Cisco Systems Inc (CSCO);$;56,15
+2021-12-03;Vale SA ADR (VALE);$;12,99
+2021-12-03;Pfizer Inc (PFE);$;53,04
+2021-12-03;Bank of America Corp (BAC);$;44,89
+2021-12-03;Activision Blizzard Inc (ATVI);$;57,29
+2021-12-03;General Motors Company (GM);$;61,02
+2021-12-03;Tesla Inc (TSLA);$;1.084,60
+2021-12-03;United States Steel Corporation (X);$;22,38
+2021-12-03;Micron Technology Inc (MU);$;82,88
+2021-12-03;Transocean Ltd (RIG);$;2,920
+2021-12-03;Western Union Co (WU);$;17,15
+2021-12-03;Discovery Communications C Inc (DISCK);$;22,67
+2021-12-03;Altria Group (MO);$;43,21
+2021-12-03;Coterra Energy Inc (CTRA);$;20,23
+2021-12-03;JetBlue Airways Corp (JBLU);$;13,85
+2021-12-03;Oracle Corporation (ORCL);$;89,99
+2021-12-03;Amazon.com Inc (AMZN);$;3.437,36
+2021-12-03;Philip Morris International Inc (PM);$;87,84
+2021-12-03;Starbucks Corporation (SBUX);$;111,42
+2021-12-03;American Express Company (AXP);$;156,77
+2021-12-03;Amgen Inc (AMGN);$;201,17
+2021-12-03;3M Company (MMM);$;170,26
+2021-12-03;Apple Inc (AAPL);$;163,76
+2021-12-03;Boeing Co (BA);$;202,38
+2021-12-03;Caterpillar Inc (CAT);$;196,79
+2021-12-03;Chevron Corp (CVX);$;115,14
+2021-12-03;Coca-Cola Co (KO);$;53,07
+2021-12-03;Dow Inc (DOW);$;53,18
+2021-12-03;Goldman Sachs Group Inc (GS);$;387,54
+2021-12-03;Home Depot Inc (HD);$;407,77
+2021-12-03;Honeywell International Inc (HON);$;204,00
+2021-12-03;International Business Machines (IBM);$;116,90
+2021-12-03;Intel Corporation (INTC);$;49,50
+2021-12-03;Johnson & Johnson (JNJ);$;157,09
+2021-12-03;JPMorgan Chase & Co (JPM);$;161,21
+2021-12-03;McDonald’s Corporation (MCD);$;248,80
+2021-12-03;Merck & Company Inc (MRK);$;73,89
+2021-12-03;Microsoft Corporation (MSFT);$;329,49
+2021-12-03;Nike Inc (NKE);$;170,00
+2021-12-03;Procter & Gamble Company (PG);$;147,26
+2021-12-03;Salesforce.com Inc (CRM);$;261,20
+2021-12-03;The Travelers Companies Inc (TRV);$;150,16
+2021-12-03;UnitedHealth Group Incorporated (UNH);$;446,02
+2021-12-03;Verizon Communications Inc (VZ);$;50,73
+2021-12-03;Visa Inc Class A (V);$;198,29
+2021-12-03;Walgreens Boots Alliance Inc (WBA);$;44,62
+2021-12-03;Walmart Inc (WMT);$;135,47
+2021-12-03;Walt Disney Company (DIS);$;147,20
+2021-12-03;Ford Motor Company (F);$;19,87
+2021-12-03;NVIDIA Corporation (NVDA);$;321,26
+2021-12-03;Cisco Systems Inc (CSCO);$;56,15
+2021-12-03;Vale SA ADR (VALE);$;12,99
+2021-12-03;Pfizer Inc (PFE);$;53,04
+2021-12-03;Bank of America Corp (BAC);$;44,89
+2021-12-03;Activision Blizzard Inc (ATVI);$;57,29
+2021-12-03;General Motors Company (GM);$;61,02
+2021-12-03;Tesla Inc (TSLA);$;1.084,60
+2021-12-03;United States Steel Corporation (X);$;22,38
+2021-12-03;Micron Technology Inc (MU);$;82,88
+2021-12-03;Transocean Ltd (RIG);$;2,920
+2021-12-03;Western Union Co (WU);$;17,15
+2021-12-03;Discovery Communications C Inc (DISCK);$;22,67
+2021-12-03;Altria Group (MO);$;43,21
+2021-12-03;Coterra Energy Inc (CTRA);$;20,23
+2021-12-03;JetBlue Airways Corp (JBLU);$;13,85
+2021-12-03;Oracle Corporation (ORCL);$;89,99
+2021-12-03;Amazon.com Inc (AMZN);$;3.437,36
+2021-12-03;Philip Morris International Inc (PM);$;87,84
+2021-12-03;Starbucks Corporation (SBUX);$;111,42
 2021-12-03;American Express Company (AXP);$;156,77
 2021-12-03;Amgen Inc (AMGN);$;201,17
 2021-12-03;3M Company (MMM);$;170,26

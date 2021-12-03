@@ -1,7 +1,6 @@
 from .forms import TaskForm
 from django.shortcuts import render, redirect
-import csv
-from django.http import HttpResponse
+from .Parsing import run
 
 
 def index(request):
@@ -40,9 +39,8 @@ def stock_csv(request):
     return render(request, 'main/Stock.csv', {'title': 'Stock'})
 
 
-def run(request):
-    if request.method == 'POST' and 'script' in request.POST:
-        from .Parsing import run
+def running(request):
+    if request.method == 'POST':
         run()
 
 

@@ -7,9 +7,3 @@ admin.site.register(Stocks)
 admin.site.register(Curse)
 admin.site.site_title = "Панель админимтартора"
 admin.site.site_header = "Панель админимтартора"
-
-
-def run(request):
-    if request.method == 'POST' and 'script' in request.POST:
-        from .Parsing import run
-        run()
