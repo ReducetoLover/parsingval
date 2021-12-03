@@ -257,6 +257,9 @@ h2{
 .button-day.selected{
     opacity: 0.7;
 }
+.ded{
+    background-color:#6B36DA;
+}
 .pad-d{
     margin-left: 40%;
 }
