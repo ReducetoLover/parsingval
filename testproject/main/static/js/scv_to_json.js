@@ -35,6 +35,40 @@ for (var minusDay=6; minusDay>=0; minusDay--){
 return toArr;
 }
 
+function getRandomFloat(min, max) {
+  return Math.random() * (max - min) + min;
+}
+
+function getRandomInt(min, max) {
+  return Math.floor(Math.random() * (max - min + 1) + min);
+}
+
+function daysInMonth (month, year) {
+    return new Date(year, month, 0).getDate();
+}
+
+function getAllDays(m, y, koeff){
+var _m = daysInMonth(m, y);
+m = m < 10 ? `0${m}` : m;
+
+var allT = [];
+
+for(var i=1; i<=_m; i++){
+    let _i = i < 10 ? `0${i}` : i;
+
+    Object.keys(R).forEach((e) => {
+        let _name = e;
+        let _valute = R[e].valuta[R[e].valuta.length-1];
+        let _value = ((R[e].values[R[e].values.length-1]*1)+getRandomFloat(-koeff,koeff));
+        _value = _value < 0 ? -_value+getRandomInt(0,10) : _value;
+
+        allT.push(`${y}-${m}-${_i};${_name};${_valute};${_value.toFixed(2)}`);
+    })
+}
+
+return allT;
+}
+
 function getYear() {
     Object.keys(R).forEach((e) => {
         R_year[e] = checkMonth(R[e]);

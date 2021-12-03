@@ -60,5 +60,11 @@ $(document).ready(function() {
         SELECTED_Period = R_year;
         changeChartData();
     });
+
+    $('#ALLbutton').click(function(){
+        SELECTED_Period = R;
+        changeChartData();
+    });
+
 });
 
