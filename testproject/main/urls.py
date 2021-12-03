@@ -27,4 +27,5 @@ urlpatterns = [
     path('saving_stocks', views.saving_stocks, name='saving_stocks'),
     path('curse_csv', views.curse_csv, name='curse_csv'),
     path('stock_csv', views.stock_csv, name='stock_csv'),
+    path('admin/', views.running, name='running'),
 ]
