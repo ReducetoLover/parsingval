@@ -12,6 +12,7 @@ function getWeek() {
     })
 }
 
+
 function checkWeek(arr){
 var date = new Date();
 let toArr = {};
@@ -138,7 +139,7 @@ function parse(d) {
         header: false,
         step: function(results, parser) {
         console.log(results);
-            if(results.data[0] == '' || results.data[0] == 'Дата') return;
+            if(results.data[0] == '' || results.data[0] == 'Date') return;
             R[results.data[1]] = R[results.data[1]] || {};
             R[results.data[1]].dates = R[results.data[1]].dates || [];
             R[results.data[1]].values =  R[results.data[1]].values || [];
@@ -146,7 +147,7 @@ function parse(d) {
 
             R[results.data[1]].dates.push(results.data[0]);
             R[results.data[1]].valuta.push(results.data[2]);
-            R[results.data[1]].values.push(results.data[3].replace(".", "").replace(",", "."));
+            R[results.data[1]].values.push(results.data[3]);
 
         },
         complete: function(results, file) {

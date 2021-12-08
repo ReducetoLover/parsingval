@@ -1,7 +1,3 @@
-$('.button-day').on('click', function(){
-    $('.button-day').removeClass('selected');
-    $(this).addClass('selected');
-});
 $('.vector .item').on("click",function(){
     $("#scroll").toggleClass('activescroll');
     $(".item").toggleClass('active');

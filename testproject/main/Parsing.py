@@ -7,7 +7,6 @@ dictionary_stock = []
 FILE_STOCKS = 'main/templates/main/Stock.csv'
 FILE_CURSE = 'main/templates/main/Curse.csv'
 
-
 def save_file(items, path):
     with open(path, 'a+', newline='', encoding="utf-8") as file:
         writer = csv.writer(file, delimiter=';')
