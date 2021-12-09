@@ -1,14 +1,1544 @@
 Дата;Название;Валюта;Цена
-2021-11-27;American Express Company (AXP);$;156,82
-2021-11-27;Amgen Inc (AMGN);$;201,09
-2021-11-27;3M Company (MMM);$;175,52
-2021-11-27;Apple Inc (AAPL);$;156,81
-2021-11-27;Boeing Co (BA);$;199,21
-2021-11-27;Caterpillar Inc (CAT);$;198,73
-2021-11-27;Chevron Corp (CVX);$;114,51
-2021-11-27;Coca-Cola Co (KO);$;53,73
-2021-11-27;Dow Inc (DOW);$;57,60
-2021-11-27;Goldman Sachs Group Inc (GS);$;389,39
+08.12.2021,American Express Company (AXP),$,168.93
+07.12.2021,American Express Company (AXP),$,166.95
+06.12.2021,American Express Company (AXP),$,160.68
+03.12.2021,American Express Company (AXP),$,155.94
+02.12.2021,American Express Company (AXP),$,156.77
+01.12.2021,American Express Company (AXP),$,150.06
+30.11.2021,American Express Company (AXP),$,152.3
+29.11.2021,American Express Company (AXP),$,157.86
+26.11.2021,American Express Company (AXP),$,156.82
+24.11.2021,American Express Company (AXP),$,171.61
+23.11.2021,American Express Company (AXP),$,170.85
+22.11.2021,American Express Company (AXP),$,170.9
+19.11.2021,American Express Company (AXP),$,173.54
+18.11.2021,American Express Company (AXP),$,176.21
+17.11.2021,American Express Company (AXP),$,179.61
+16.11.2021,American Express Company (AXP),$,180.92
+15.11.2021,American Express Company (AXP),$,183.13
+12.11.2021,American Express Company (AXP),$,181.89
+11.11.2021,American Express Company (AXP),$,181.3
+10.11.2021,American Express Company (AXP),$,181.39
+09.11.2021,American Express Company (AXP),$,179.86
+08.11.2021,American Express Company (AXP),$,180.05
+05.11.2021,American Express Company (AXP),$,176.69
+04.11.2021,American Express Company (AXP),$,172.53
+03.11.2021,American Express Company (AXP),$,172.61
+02.11.2021,American Express Company (AXP),$,173.17
+01.11.2021,American Express Company (AXP),$,174.21
+29.10.2021,American Express Company (AXP),$,173.78
+28.10.2021,American Express Company (AXP),$,174.61
+27.10.2021,American Express Company (AXP),$,178.03
+26.10.2021,American Express Company (AXP),$,180.95
+25.10.2021,American Express Company (AXP),$,182.31
+22.10.2021,American Express Company (AXP),$,187.08
+21.10.2021,American Express Company (AXP),$,177.47
+20.10.2021,American Express Company (AXP),$,179.6
+19.10.2021,American Express Company (AXP),$,177.31
+18.10.2021,American Express Company (AXP),$,176.82
+15.10.2021,American Express Company (AXP),$,175.81
+14.10.2021,American Express Company (AXP),$,171.51
+13.10.2021,American Express Company (AXP),$,168.72
+12.10.2021,American Express Company (AXP),$,174.91
+11.10.2021,American Express Company (AXP),$,173.46
+08.10.2021,American Express Company (AXP),$,175.15
+07.10.2021,American Express Company (AXP),$,174.29
+06.10.2021,American Express Company (AXP),$,173.4
+05.10.2021,American Express Company (AXP),$,174.76
+04.10.2021,American Express Company (AXP),$,172.66
+01.10.2021,American Express Company (AXP),$,173.94
+30.09.2021,American Express Company (AXP),$,167.53
+29.09.2021,American Express Company (AXP),$,171.54
+28.09.2021,American Express Company (AXP),$,173.14
+27.09.2021,American Express Company (AXP),$,176.77
+24.09.2021,American Express Company (AXP),$,175.72
+23.09.2021,American Express Company (AXP),$,173.36
+22.09.2021,American Express Company (AXP),$,167.49
+21.09.2021,American Express Company (AXP),$,163.27
+20.09.2021,American Express Company (AXP),$,160.57
+17.09.2021,American Express Company (AXP),$,163.92
+16.09.2021,American Express Company (AXP),$,162.63
+15.09.2021,American Express Company (AXP),$,161.34
+14.09.2021,American Express Company (AXP),$,159.48
+13.09.2021,American Express Company (AXP),$,161.45
+10.09.2021,American Express Company (AXP),$,158.72
+09.09.2021,American Express Company (AXP),$,159.39
+08.09.2021,American Express Company (AXP),$,158.93
+07.09.2021,American Express Company (AXP),$,159.72
+03.09.2021,American Express Company (AXP),$,159.3
+02.09.2021,American Express Company (AXP),$,162.05
+01.09.2021,American Express Company (AXP),$,164.44
+31.08.2021,American Express Company (AXP),$,165.96
+30.08.2021,American Express Company (AXP),$,164.26
+27.08.2021,American Express Company (AXP),$,168.65
+26.08.2021,American Express Company (AXP),$,165.51
+25.08.2021,American Express Company (AXP),$,166.18
+24.08.2021,American Express Company (AXP),$,161.2
+23.08.2021,American Express Company (AXP),$,160.45
+20.08.2021,American Express Company (AXP),$,159.75
+19.08.2021,American Express Company (AXP),$,159.03
+18.08.2021,American Express Company (AXP),$,162.13
+17.08.2021,American Express Company (AXP),$,164.65
+16.08.2021,American Express Company (AXP),$,165.75
+13.08.2021,American Express Company (AXP),$,166.08
+12.08.2021,American Express Company (AXP),$,168.52
+11.08.2021,American Express Company (AXP),$,170.67
+10.08.2021,American Express Company (AXP),$,169.49
+09.08.2021,American Express Company (AXP),$,170.78
+06.08.2021,American Express Company (AXP),$,171.36
+05.08.2021,American Express Company (AXP),$,169.63
+04.08.2021,American Express Company (AXP),$,168.06
+03.08.2021,American Express Company (AXP),$,169.04
+02.08.2021,American Express Company (AXP),$,169.27
+30.07.2021,American Express Company (AXP),$,170.53
+29.07.2021,American Express Company (AXP),$,171.95
+28.07.2021,American Express Company (AXP),$,170.02
+27.07.2021,American Express Company (AXP),$,172.94
+26.07.2021,American Express Company (AXP),$,172.61
+23.07.2021,American Express Company (AXP),$,173.18
+22.07.2021,American Express Company (AXP),$,170.9
+21.07.2021,American Express Company (AXP),$,172.51
+20.07.2021,American Express Company (AXP),$,168.87
+19.07.2021,American Express Company (AXP),$,162.81
+16.07.2021,American Express Company (AXP),$,170.01
+15.07.2021,American Express Company (AXP),$,172.85
+14.07.2021,American Express Company (AXP),$,172.52
+13.07.2021,American Express Company (AXP),$,172.62
+12.07.2021,American Express Company (AXP),$,173.6
+09.07.2021,American Express Company (AXP),$,171.94
+08.07.2021,American Express Company (AXP),$,167.5
+07.07.2021,American Express Company (AXP),$,170.98
+06.07.2021,American Express Company (AXP),$,169.56
+02.07.2021,American Express Company (AXP),$,168.5
+01.07.2021,American Express Company (AXP),$,166.94
+30.06.2021,American Express Company (AXP),$,165.23
+29.06.2021,American Express Company (AXP),$,164.25
+28.06.2021,American Express Company (AXP),$,164.78
+25.06.2021,American Express Company (AXP),$,169.45
+24.06.2021,American Express Company (AXP),$,168.21
+23.06.2021,American Express Company (AXP),$,166.02
+22.06.2021,American Express Company (AXP),$,164.5
+21.06.2021,American Express Company (AXP),$,164.9
+18.06.2021,American Express Company (AXP),$,158.17
+17.06.2021,American Express Company (AXP),$,162.13
+16.06.2021,American Express Company (AXP),$,164.68
+15.06.2021,American Express Company (AXP),$,166.27
+14.06.2021,American Express Company (AXP),$,163.81
+11.06.2021,American Express Company (AXP),$,164.51
+10.06.2021,American Express Company (AXP),$,162.23
+09.06.2021,American Express Company (AXP),$,164.09
+08.06.2021,American Express Company (AXP),$,166.51
+07.06.2021,American Express Company (AXP),$,165.92
+04.06.2021,American Express Company (AXP),$,165
+03.06.2021,American Express Company (AXP),$,164.52
+02.06.2021,American Express Company (AXP),$,164.12
+01.06.2021,American Express Company (AXP),$,163.76
+28.05.2021,American Express Company (AXP),$,160.13
+27.05.2021,American Express Company (AXP),$,159.74
+26.05.2021,American Express Company (AXP),$,158.58
+25.05.2021,American Express Company (AXP),$,158.01
+24.05.2021,American Express Company (AXP),$,158.64
+21.05.2021,American Express Company (AXP),$,156.87
+20.05.2021,American Express Company (AXP),$,155.53
+19.05.2021,American Express Company (AXP),$,154.73
+18.05.2021,American Express Company (AXP),$,154.99
+17.05.2021,American Express Company (AXP),$,156.86
+14.05.2021,American Express Company (AXP),$,157.15
+13.05.2021,American Express Company (AXP),$,154.08
+12.05.2021,American Express Company (AXP),$,152.3
+11.05.2021,American Express Company (AXP),$,154.43
+10.05.2021,American Express Company (AXP),$,158.68
+07.05.2021,American Express Company (AXP),$,158.98
+06.05.2021,American Express Company (AXP),$,156.88
+05.05.2021,American Express Company (AXP),$,156.39
+04.05.2021,American Express Company (AXP),$,154.53
+03.05.2021,American Express Company (AXP),$,154.8
+08.12.2021,Amgen Inc (AMGN),$,213.53
+07.12.2021,Amgen Inc (AMGN),$,211.32
+06.12.2021,Amgen Inc (AMGN),$,208.79
+03.12.2021,Amgen Inc (AMGN),$,202.44
+02.12.2021,Amgen Inc (AMGN),$,201.17
+01.12.2021,Amgen Inc (AMGN),$,200.8
+30.11.2021,Amgen Inc (AMGN),$,198.88
+29.11.2021,Amgen Inc (AMGN),$,203.47
+26.11.2021,Amgen Inc (AMGN),$,201.09
+24.11.2021,Amgen Inc (AMGN),$,203.97
+23.11.2021,Amgen Inc (AMGN),$,204.53
+22.11.2021,Amgen Inc (AMGN),$,202.73
+19.11.2021,Amgen Inc (AMGN),$,206.08
+18.11.2021,Amgen Inc (AMGN),$,204.02
+17.11.2021,Amgen Inc (AMGN),$,205.82
+16.11.2021,Amgen Inc (AMGN),$,205.39
+15.11.2021,Amgen Inc (AMGN),$,207.4
+12.11.2021,Amgen Inc (AMGN),$,211.39
+11.11.2021,Amgen Inc (AMGN),$,211.56
+10.11.2021,Amgen Inc (AMGN),$,213.21
+09.11.2021,Amgen Inc (AMGN),$,211.71
+08.11.2021,Amgen Inc (AMGN),$,211.37
+05.11.2021,Amgen Inc (AMGN),$,213.77
+04.11.2021,Amgen Inc (AMGN),$,214.93
+03.11.2021,Amgen Inc (AMGN),$,218.13
+02.11.2021,Amgen Inc (AMGN),$,214.26
+01.11.2021,Amgen Inc (AMGN),$,209.79
+29.10.2021,Amgen Inc (AMGN),$,206.97
+28.10.2021,Amgen Inc (AMGN),$,207.17
+27.10.2021,Amgen Inc (AMGN),$,206.58
+26.10.2021,Amgen Inc (AMGN),$,208.68
+25.10.2021,Amgen Inc (AMGN),$,207.63
+22.10.2021,Amgen Inc (AMGN),$,209.24
+21.10.2021,Amgen Inc (AMGN),$,208.99
+20.10.2021,Amgen Inc (AMGN),$,209.66
+19.10.2021,Amgen Inc (AMGN),$,206.78
+18.10.2021,Amgen Inc (AMGN),$,203.13
+15.10.2021,Amgen Inc (AMGN),$,207.84
+14.10.2021,Amgen Inc (AMGN),$,206.78
+13.10.2021,Amgen Inc (AMGN),$,203.61
+12.10.2021,Amgen Inc (AMGN),$,201.89
+11.10.2021,Amgen Inc (AMGN),$,206.7
+08.10.2021,Amgen Inc (AMGN),$,208.95
+07.10.2021,Amgen Inc (AMGN),$,209.12
+06.10.2021,Amgen Inc (AMGN),$,209.98
+05.10.2021,Amgen Inc (AMGN),$,211.86
+04.10.2021,Amgen Inc (AMGN),$,211.44
+01.10.2021,Amgen Inc (AMGN),$,213.92
+30.09.2021,Amgen Inc (AMGN),$,212.65
+29.09.2021,Amgen Inc (AMGN),$,214.9
+28.09.2021,Amgen Inc (AMGN),$,212.27
+27.09.2021,Amgen Inc (AMGN),$,213.11
+24.09.2021,Amgen Inc (AMGN),$,213.61
+23.09.2021,Amgen Inc (AMGN),$,215.05
+22.09.2021,Amgen Inc (AMGN),$,213.64
+21.09.2021,Amgen Inc (AMGN),$,215.36
+20.09.2021,Amgen Inc (AMGN),$,215.11
+17.09.2021,Amgen Inc (AMGN),$,219.38
+16.09.2021,Amgen Inc (AMGN),$,217.36
+15.09.2021,Amgen Inc (AMGN),$,218.13
+14.09.2021,Amgen Inc (AMGN),$,216.04
+13.09.2021,Amgen Inc (AMGN),$,216.72
+10.09.2021,Amgen Inc (AMGN),$,213.75
+09.09.2021,Amgen Inc (AMGN),$,215.58
+08.09.2021,Amgen Inc (AMGN),$,220.87
+07.09.2021,Amgen Inc (AMGN),$,221.34
+03.09.2021,Amgen Inc (AMGN),$,226.37
+02.09.2021,Amgen Inc (AMGN),$,225.96
+01.09.2021,Amgen Inc (AMGN),$,223.35
+31.08.2021,Amgen Inc (AMGN),$,225.53
+30.08.2021,Amgen Inc (AMGN),$,224.13
+27.08.2021,Amgen Inc (AMGN),$,222.78
+26.08.2021,Amgen Inc (AMGN),$,221.47
+25.08.2021,Amgen Inc (AMGN),$,221.59
+24.08.2021,Amgen Inc (AMGN),$,224.38
+23.08.2021,Amgen Inc (AMGN),$,225.64
+20.08.2021,Amgen Inc (AMGN),$,223.53
+19.08.2021,Amgen Inc (AMGN),$,224.39
+18.08.2021,Amgen Inc (AMGN),$,226.84
+17.08.2021,Amgen Inc (AMGN),$,231.2
+16.08.2021,Amgen Inc (AMGN),$,231.07
+13.08.2021,Amgen Inc (AMGN),$,229.68
+12.08.2021,Amgen Inc (AMGN),$,228.15
+11.08.2021,Amgen Inc (AMGN),$,228.13
+10.08.2021,Amgen Inc (AMGN),$,227.96
+09.08.2021,Amgen Inc (AMGN),$,227.89
+06.08.2021,Amgen Inc (AMGN),$,230.15
+05.08.2021,Amgen Inc (AMGN),$,233.99
+04.08.2021,Amgen Inc (AMGN),$,228.31
+03.08.2021,Amgen Inc (AMGN),$,244.08
+02.08.2021,Amgen Inc (AMGN),$,239.79
+30.07.2021,Amgen Inc (AMGN),$,241.54
+29.07.2021,Amgen Inc (AMGN),$,242.46
+28.07.2021,Amgen Inc (AMGN),$,244.25
+27.07.2021,Amgen Inc (AMGN),$,244.68
+26.07.2021,Amgen Inc (AMGN),$,245.08
+23.07.2021,Amgen Inc (AMGN),$,247.72
+22.07.2021,Amgen Inc (AMGN),$,244.74
+21.07.2021,Amgen Inc (AMGN),$,244.85
+20.07.2021,Amgen Inc (AMGN),$,246.89
+19.07.2021,Amgen Inc (AMGN),$,246.73
+16.07.2021,Amgen Inc (AMGN),$,247.96
+15.07.2021,Amgen Inc (AMGN),$,246.63
+14.07.2021,Amgen Inc (AMGN),$,244.7
+13.07.2021,Amgen Inc (AMGN),$,244.83
+12.07.2021,Amgen Inc (AMGN),$,244.37
+09.07.2021,Amgen Inc (AMGN),$,245.2
+08.07.2021,Amgen Inc (AMGN),$,244.28
+07.07.2021,Amgen Inc (AMGN),$,243.22
+06.07.2021,Amgen Inc (AMGN),$,243.65
+02.07.2021,Amgen Inc (AMGN),$,248.7
+01.07.2021,Amgen Inc (AMGN),$,246.9
+30.06.2021,Amgen Inc (AMGN),$,243.75
+29.06.2021,Amgen Inc (AMGN),$,242.46
+28.06.2021,Amgen Inc (AMGN),$,242.84
+25.06.2021,Amgen Inc (AMGN),$,242.68
+24.06.2021,Amgen Inc (AMGN),$,240.95
+23.06.2021,Amgen Inc (AMGN),$,238.71
+22.06.2021,Amgen Inc (AMGN),$,239.91
+21.06.2021,Amgen Inc (AMGN),$,240.24
+18.06.2021,Amgen Inc (AMGN),$,238.68
+17.06.2021,Amgen Inc (AMGN),$,240.76
+16.06.2021,Amgen Inc (AMGN),$,239.58
+15.06.2021,Amgen Inc (AMGN),$,239.85
+14.06.2021,Amgen Inc (AMGN),$,241.19
+11.06.2021,Amgen Inc (AMGN),$,242.77
+10.06.2021,Amgen Inc (AMGN),$,244.64
+09.06.2021,Amgen Inc (AMGN),$,239.52
+08.06.2021,Amgen Inc (AMGN),$,236.82
+07.06.2021,Amgen Inc (AMGN),$,237.19
+04.06.2021,Amgen Inc (AMGN),$,236.85
+03.06.2021,Amgen Inc (AMGN),$,235.74
+02.06.2021,Amgen Inc (AMGN),$,235.16
+01.06.2021,Amgen Inc (AMGN),$,233.58
+28.05.2021,Amgen Inc (AMGN),$,237.94
+27.05.2021,Amgen Inc (AMGN),$,235.31
+26.05.2021,Amgen Inc (AMGN),$,238.55
+25.05.2021,Amgen Inc (AMGN),$,242
+24.05.2021,Amgen Inc (AMGN),$,247.75
+21.05.2021,Amgen Inc (AMGN),$,251.01
+20.05.2021,Amgen Inc (AMGN),$,251.93
+19.05.2021,Amgen Inc (AMGN),$,248.63
+18.05.2021,Amgen Inc (AMGN),$,250.86
+17.05.2021,Amgen Inc (AMGN),$,252.38
+14.05.2021,Amgen Inc (AMGN),$,251.38
+13.05.2021,Amgen Inc (AMGN),$,252.07
+12.05.2021,Amgen Inc (AMGN),$,250.83
+11.05.2021,Amgen Inc (AMGN),$,252.3
+10.05.2021,Amgen Inc (AMGN),$,252.62
+07.05.2021,Amgen Inc (AMGN),$,254.21
+06.05.2021,Amgen Inc (AMGN),$,251.3
+05.05.2021,Amgen Inc (AMGN),$,249.35
+04.05.2021,Amgen Inc (AMGN),$,247.36
+03.05.2021,Amgen Inc (AMGN),$,245.38
+08.12.2021,3M Company (MMM),$,176.04
+07.12.2021,4M Company (MMM),$,176.55
+06.12.2021,5M Company (MMM),$,177.2
+03.12.2021,6M Company (MMM),$,172.59
+02.12.2021,7M Company (MMM),$,170.26
+01.12.2021,8M Company (MMM),$,170.73
+30.11.2021,9M Company (MMM),$,170.04
+29.11.2021,10M Company (MMM),$,176.23
+26.11.2021,11M Company (MMM),$,175.52
+24.11.2021,12M Company (MMM),$,177.63
+23.11.2021,13M Company (MMM),$,179.46
+22.11.2021,14M Company (MMM),$,179.66
+19.11.2021,15M Company (MMM),$,179.23
+18.11.2021,16M Company (MMM),$,178.77
+17.11.2021,17M Company (MMM),$,183.34
+16.11.2021,18M Company (MMM),$,183.37
+15.11.2021,19M Company (MMM),$,183.31
+12.11.2021,20M Company (MMM),$,183.66
+11.11.2021,21M Company (MMM),$,180.21
+10.11.2021,22M Company (MMM),$,182.42
+09.11.2021,23M Company (MMM),$,181.33
+08.11.2021,24M Company (MMM),$,181.54
+05.11.2021,25M Company (MMM),$,181.8
+04.11.2021,26M Company (MMM),$,180.61
+03.11.2021,27M Company (MMM),$,182.23
+02.11.2021,28M Company (MMM),$,181.97
+01.11.2021,29M Company (MMM),$,179.58
+29.10.2021,30M Company (MMM),$,178.68
+28.10.2021,31M Company (MMM),$,179.87
+27.10.2021,32M Company (MMM),$,178.24
+26.10.2021,33M Company (MMM),$,182.16
+25.10.2021,34M Company (MMM),$,182.4
+22.10.2021,35M Company (MMM),$,180.8
+21.10.2021,36M Company (MMM),$,182.12
+20.10.2021,37M Company (MMM),$,182.42
+19.10.2021,38M Company (MMM),$,182.31
+18.10.2021,39M Company (MMM),$,181.72
+15.10.2021,40M Company (MMM),$,181.94
+14.10.2021,41M Company (MMM),$,180.32
+13.10.2021,42M Company (MMM),$,177.17
+12.10.2021,43M Company (MMM),$,175.53
+11.10.2021,44M Company (MMM),$,176.28
+08.10.2021,45M Company (MMM),$,176.95
+07.10.2021,46M Company (MMM),$,177.8
+06.10.2021,47M Company (MMM),$,178.4
+05.10.2021,48M Company (MMM),$,177.88
+04.10.2021,49M Company (MMM),$,176.04
+01.10.2021,50M Company (MMM),$,176.68
+30.09.2021,51M Company (MMM),$,175.42
+29.09.2021,52M Company (MMM),$,180.88
+28.09.2021,53M Company (MMM),$,180.05
+27.09.2021,54M Company (MMM),$,181.79
+24.09.2021,55M Company (MMM),$,181.04
+23.09.2021,56M Company (MMM),$,181.53
+22.09.2021,57M Company (MMM),$,179.84
+21.09.2021,58M Company (MMM),$,178.42
+20.09.2021,59M Company (MMM),$,180.53
+17.09.2021,60M Company (MMM),$,181.49
+16.09.2021,61M Company (MMM),$,182.66
+15.09.2021,62M Company (MMM),$,184.19
+14.09.2021,63M Company (MMM),$,182.42
+13.09.2021,64M Company (MMM),$,185.23
+10.09.2021,65M Company (MMM),$,184.55
+09.09.2021,66M Company (MMM),$,185.75
+08.09.2021,67M Company (MMM),$,187.89
+07.09.2021,68M Company (MMM),$,185.58
+03.09.2021,69M Company (MMM),$,194.39
+02.09.2021,70M Company (MMM),$,194.89
+01.09.2021,71M Company (MMM),$,193.44
+31.08.2021,72M Company (MMM),$,194.74
+30.08.2021,73M Company (MMM),$,196.17
+27.08.2021,74M Company (MMM),$,195.05
+26.08.2021,75M Company (MMM),$,195.32
+25.08.2021,76M Company (MMM),$,194.34
+24.08.2021,77M Company (MMM),$,194.75
+23.08.2021,78M Company (MMM),$,194.68
+20.08.2021,79M Company (MMM),$,194.16
+19.08.2021,80M Company (MMM),$,195.36
+18.08.2021,81M Company (MMM),$,196.51
+17.08.2021,82M Company (MMM),$,199.55
+16.08.2021,83M Company (MMM),$,202.32
+13.08.2021,84M Company (MMM),$,200.58
+12.08.2021,85M Company (MMM),$,201.43
+11.08.2021,86M Company (MMM),$,201.57
+10.08.2021,87M Company (MMM),$,199.25
+09.08.2021,88M Company (MMM),$,197.43
+06.08.2021,89M Company (MMM),$,198.13
+05.08.2021,90M Company (MMM),$,197.8
+04.08.2021,91M Company (MMM),$,197.53
+03.08.2021,92M Company (MMM),$,201.03
+02.08.2021,93M Company (MMM),$,197.52
+30.07.2021,94M Company (MMM),$,197.94
+29.07.2021,95M Company (MMM),$,198.17
+28.07.2021,96M Company (MMM),$,198.28
+27.07.2021,97M Company (MMM),$,200.47
+26.07.2021,98M Company (MMM),$,201.67
+23.07.2021,99M Company (MMM),$,200.49
+22.07.2021,100M Company (MMM),$,199.07
+21.07.2021,101M Company (MMM),$,200.77
+20.07.2021,102M Company (MMM),$,200.82
+19.07.2021,103M Company (MMM),$,197.56
+16.07.2021,104M Company (MMM),$,199.37
+15.07.2021,105M Company (MMM),$,202.59
+14.07.2021,106M Company (MMM),$,202.83
+13.07.2021,107M Company (MMM),$,199.6
+12.07.2021,108M Company (MMM),$,199.98
+09.07.2021,109M Company (MMM),$,201
+08.07.2021,110M Company (MMM),$,198.27
+07.07.2021,111M Company (MMM),$,199.86
+06.07.2021,112M Company (MMM),$,196.89
+02.07.2021,113M Company (MMM),$,199.89
+01.07.2021,114M Company (MMM),$,199.09
+30.06.2021,115M Company (MMM),$,198.63
+29.06.2021,116M Company (MMM),$,196.03
+28.06.2021,117M Company (MMM),$,196.5
+25.06.2021,118M Company (MMM),$,194.75
+24.06.2021,119M Company (MMM),$,193.26
+23.06.2021,120M Company (MMM),$,192.36
+22.06.2021,121M Company (MMM),$,195.14
+21.06.2021,122M Company (MMM),$,195.21
+18.06.2021,123M Company (MMM),$,191.6
+17.06.2021,124M Company (MMM),$,195.14
+16.06.2021,125M Company (MMM),$,196.91
+15.06.2021,126M Company (MMM),$,200.61
+14.06.2021,127M Company (MMM),$,201.36
+11.06.2021,128M Company (MMM),$,202.81
+10.06.2021,129M Company (MMM),$,203.13
+09.06.2021,130M Company (MMM),$,202.74
+08.06.2021,131M Company (MMM),$,203.59
+07.06.2021,132M Company (MMM),$,203.73
+04.06.2021,133M Company (MMM),$,206.05
+03.06.2021,134M Company (MMM),$,203.67
+02.06.2021,135M Company (MMM),$,203.29
+01.06.2021,136M Company (MMM),$,203.2
+28.05.2021,137M Company (MMM),$,203.04
+27.05.2021,138M Company (MMM),$,203.24
+26.05.2021,139M Company (MMM),$,201.58
+25.05.2021,140M Company (MMM),$,201.71
+24.05.2021,141M Company (MMM),$,202.61
+21.05.2021,142M Company (MMM),$,201.86
+20.05.2021,143M Company (MMM),$,201.65
+19.05.2021,144M Company (MMM),$,202.6
+18.05.2021,145M Company (MMM),$,203.03
+17.05.2021,146M Company (MMM),$,205.11
+14.05.2021,147M Company (MMM),$,204.38
+13.05.2021,148M Company (MMM),$,203.41
+12.05.2021,149M Company (MMM),$,198.87
+11.05.2021,150M Company (MMM),$,203.72
+10.05.2021,151M Company (MMM),$,207.33
+07.05.2021,152M Company (MMM),$,203.07
+06.05.2021,153M Company (MMM),$,202.41
+05.05.2021,154M Company (MMM),$,201.44
+04.05.2021,155M Company (MMM),$,199.38
+03.05.2021,156M Company (MMM),$,198.61
+08.12.2021,Apple Inc (AAPL),$,175.08
+07.12.2021,Apple Inc (AAPL),$,171.18
+06.12.2021,Apple Inc (AAPL),$,165.32
+03.12.2021,Apple Inc (AAPL),$,161.84
+02.12.2021,Apple Inc (AAPL),$,163.76
+01.12.2021,Apple Inc (AAPL),$,164.77
+30.11.2021,Apple Inc (AAPL),$,165.3
+29.11.2021,Apple Inc (AAPL),$,160.24
+26.11.2021,Apple Inc (AAPL),$,156.81
+24.11.2021,Apple Inc (AAPL),$,161.94
+23.11.2021,Apple Inc (AAPL),$,161.41
+22.11.2021,Apple Inc (AAPL),$,161.02
+19.11.2021,Apple Inc (AAPL),$,160.55
+18.11.2021,Apple Inc (AAPL),$,157.87
+17.11.2021,Apple Inc (AAPL),$,153.49
+16.11.2021,Apple Inc (AAPL),$,151
+15.11.2021,Apple Inc (AAPL),$,150
+12.11.2021,Apple Inc (AAPL),$,149.99
+11.11.2021,Apple Inc (AAPL),$,147.87
+10.11.2021,Apple Inc (AAPL),$,147.92
+09.11.2021,Apple Inc (AAPL),$,150.81
+08.11.2021,Apple Inc (AAPL),$,150.44
+05.11.2021,Apple Inc (AAPL),$,151.28
+04.11.2021,Apple Inc (AAPL),$,150.96
+03.11.2021,Apple Inc (AAPL),$,151.49
+02.11.2021,Apple Inc (AAPL),$,150.02
+01.11.2021,Apple Inc (AAPL),$,148.96
+29.10.2021,Apple Inc (AAPL),$,149.8
+28.10.2021,Apple Inc (AAPL),$,152.57
+27.10.2021,Apple Inc (AAPL),$,148.85
+26.10.2021,Apple Inc (AAPL),$,149.32
+25.10.2021,Apple Inc (AAPL),$,148.64
+22.10.2021,Apple Inc (AAPL),$,148.69
+21.10.2021,Apple Inc (AAPL),$,149.48
+20.10.2021,Apple Inc (AAPL),$,149.26
+19.10.2021,Apple Inc (AAPL),$,148.76
+18.10.2021,Apple Inc (AAPL),$,146.55
+15.10.2021,Apple Inc (AAPL),$,144.84
+14.10.2021,Apple Inc (AAPL),$,143.76
+13.10.2021,Apple Inc (AAPL),$,140.91
+12.10.2021,Apple Inc (AAPL),$,141.51
+11.10.2021,Apple Inc (AAPL),$,142.81
+08.10.2021,Apple Inc (AAPL),$,142.9
+07.10.2021,Apple Inc (AAPL),$,143.29
+06.10.2021,Apple Inc (AAPL),$,142
+05.10.2021,Apple Inc (AAPL),$,141.11
+04.10.2021,Apple Inc (AAPL),$,139.14
+01.10.2021,Apple Inc (AAPL),$,142.65
+30.09.2021,Apple Inc (AAPL),$,141.5
+29.09.2021,Apple Inc (AAPL),$,142.83
+28.09.2021,Apple Inc (AAPL),$,141.91
+27.09.2021,Apple Inc (AAPL),$,145.37
+24.09.2021,Apple Inc (AAPL),$,146.92
+23.09.2021,Apple Inc (AAPL),$,146.83
+22.09.2021,Apple Inc (AAPL),$,145.85
+21.09.2021,Apple Inc (AAPL),$,143.43
+20.09.2021,Apple Inc (AAPL),$,142.94
+17.09.2021,Apple Inc (AAPL),$,146.06
+16.09.2021,Apple Inc (AAPL),$,148.79
+15.09.2021,Apple Inc (AAPL),$,149.03
+14.09.2021,Apple Inc (AAPL),$,148.12
+13.09.2021,Apple Inc (AAPL),$,149.55
+10.09.2021,Apple Inc (AAPL),$,148.97
+09.09.2021,Apple Inc (AAPL),$,154.07
+08.09.2021,Apple Inc (AAPL),$,155.11
+07.09.2021,Apple Inc (AAPL),$,156.69
+03.09.2021,Apple Inc (AAPL),$,154.3
+02.09.2021,Apple Inc (AAPL),$,153.65
+01.09.2021,Apple Inc (AAPL),$,152.51
+31.08.2021,Apple Inc (AAPL),$,151.83
+30.08.2021,Apple Inc (AAPL),$,153.12
+27.08.2021,Apple Inc (AAPL),$,148.6
+26.08.2021,Apple Inc (AAPL),$,147.54
+25.08.2021,Apple Inc (AAPL),$,148.36
+24.08.2021,Apple Inc (AAPL),$,149.62
+23.08.2021,Apple Inc (AAPL),$,149.71
+20.08.2021,Apple Inc (AAPL),$,148.19
+19.08.2021,Apple Inc (AAPL),$,146.7
+18.08.2021,Apple Inc (AAPL),$,146.36
+17.08.2021,Apple Inc (AAPL),$,150.19
+16.08.2021,Apple Inc (AAPL),$,151.12
+13.08.2021,Apple Inc (AAPL),$,149.1
+12.08.2021,Apple Inc (AAPL),$,148.89
+11.08.2021,Apple Inc (AAPL),$,145.86
+10.08.2021,Apple Inc (AAPL),$,145.6
+09.08.2021,Apple Inc (AAPL),$,146.09
+06.08.2021,Apple Inc (AAPL),$,146.14
+05.08.2021,Apple Inc (AAPL),$,147.06
+04.08.2021,Apple Inc (AAPL),$,146.95
+03.08.2021,Apple Inc (AAPL),$,147.36
+02.08.2021,Apple Inc (AAPL),$,145.52
+30.07.2021,Apple Inc (AAPL),$,145.86
+29.07.2021,Apple Inc (AAPL),$,145.64
+28.07.2021,Apple Inc (AAPL),$,144.98
+27.07.2021,Apple Inc (AAPL),$,146.77
+26.07.2021,Apple Inc (AAPL),$,148.99
+23.07.2021,Apple Inc (AAPL),$,148.56
+22.07.2021,Apple Inc (AAPL),$,146.8
+21.07.2021,Apple Inc (AAPL),$,145.4
+20.07.2021,Apple Inc (AAPL),$,146.15
+19.07.2021,Apple Inc (AAPL),$,142.45
+16.07.2021,Apple Inc (AAPL),$,146.39
+15.07.2021,Apple Inc (AAPL),$,148.48
+14.07.2021,Apple Inc (AAPL),$,149.15
+13.07.2021,Apple Inc (AAPL),$,145.64
+12.07.2021,Apple Inc (AAPL),$,144.5
+09.07.2021,Apple Inc (AAPL),$,145.11
+08.07.2021,Apple Inc (AAPL),$,143.24
+07.07.2021,Apple Inc (AAPL),$,144.57
+06.07.2021,Apple Inc (AAPL),$,142.02
+02.07.2021,Apple Inc (AAPL),$,139.96
+01.07.2021,Apple Inc (AAPL),$,137.27
+30.06.2021,Apple Inc (AAPL),$,136.96
+29.06.2021,Apple Inc (AAPL),$,136.33
+28.06.2021,Apple Inc (AAPL),$,134.78
+25.06.2021,Apple Inc (AAPL),$,133.11
+24.06.2021,Apple Inc (AAPL),$,133.41
+23.06.2021,Apple Inc (AAPL),$,133.7
+22.06.2021,Apple Inc (AAPL),$,133.98
+21.06.2021,Apple Inc (AAPL),$,132.3
+18.06.2021,Apple Inc (AAPL),$,130.46
+17.06.2021,Apple Inc (AAPL),$,131.79
+16.06.2021,Apple Inc (AAPL),$,130.15
+15.06.2021,Apple Inc (AAPL),$,129.64
+14.06.2021,Apple Inc (AAPL),$,130.48
+11.06.2021,Apple Inc (AAPL),$,127.35
+10.06.2021,Apple Inc (AAPL),$,126.11
+09.06.2021,Apple Inc (AAPL),$,127.13
+08.06.2021,Apple Inc (AAPL),$,126.74
+07.06.2021,Apple Inc (AAPL),$,125.9
+04.06.2021,Apple Inc (AAPL),$,125.89
+03.06.2021,Apple Inc (AAPL),$,123.54
+02.06.2021,Apple Inc (AAPL),$,125.06
+01.06.2021,Apple Inc (AAPL),$,124.28
+28.05.2021,Apple Inc (AAPL),$,124.61
+27.05.2021,Apple Inc (AAPL),$,125.28
+26.05.2021,Apple Inc (AAPL),$,126.85
+25.05.2021,Apple Inc (AAPL),$,126.9
+24.05.2021,Apple Inc (AAPL),$,127.1
+21.05.2021,Apple Inc (AAPL),$,125.43
+20.05.2021,Apple Inc (AAPL),$,127.31
+19.05.2021,Apple Inc (AAPL),$,124.69
+18.05.2021,Apple Inc (AAPL),$,124.85
+17.05.2021,Apple Inc (AAPL),$,126.27
+14.05.2021,Apple Inc (AAPL),$,127.45
+13.05.2021,Apple Inc (AAPL),$,124.97
+12.05.2021,Apple Inc (AAPL),$,122.77
+11.05.2021,Apple Inc (AAPL),$,125.91
+10.05.2021,Apple Inc (AAPL),$,126.85
+07.05.2021,Apple Inc (AAPL),$,130.21
+06.05.2021,Apple Inc (AAPL),$,129.74
+05.05.2021,Apple Inc (AAPL),$,128.1
+04.05.2021,Apple Inc (AAPL),$,127.85
+03.05.2021,Apple Inc (AAPL),$,132.54
+08.12.2021,Boeing Co (BA),$,211.03
+07.12.2021,Boeing Co (BA),$,208.83
+06.12.2021,Boeing Co (BA),$,205.88
+03.12.2021,Boeing Co (BA),$,198.49
+02.12.2021,Boeing Co (BA),$,202.38
+01.12.2021,Boeing Co (BA),$,188.19
+30.11.2021,Boeing Co (BA),$,197.85
+29.11.2021,Boeing Co (BA),$,198.5
+26.11.2021,Boeing Co (BA),$,199.21
+24.11.2021,Boeing Co (BA),$,210.6
+23.11.2021,Boeing Co (BA),$,209.13
+22.11.2021,Boeing Co (BA),$,209.9
+19.11.2021,Boeing Co (BA),$,214.13
+18.11.2021,Boeing Co (BA),$,227.25
+17.11.2021,Boeing Co (BA),$,226.62
+16.11.2021,Boeing Co (BA),$,225.8
+15.11.2021,Boeing Co (BA),$,233.09
+12.11.2021,Boeing Co (BA),$,220.96
+11.11.2021,Boeing Co (BA),$,219.38
+10.11.2021,Boeing Co (BA),$,218.5
+09.11.2021,Boeing Co (BA),$,220.79
+08.11.2021,Boeing Co (BA),$,222.68
+05.11.2021,Boeing Co (BA),$,224.46
+04.11.2021,Boeing Co (BA),$,213.03
+03.11.2021,Boeing Co (BA),$,213.38
+02.11.2021,Boeing Co (BA),$,212.77
+01.11.2021,Boeing Co (BA),$,214.58
+29.10.2021,Boeing Co (BA),$,207.03
+28.10.2021,Boeing Co (BA),$,207.85
+27.10.2021,Boeing Co (BA),$,206.61
+26.10.2021,Boeing Co (BA),$,209.81
+25.10.2021,Boeing Co (BA),$,212.87
+22.10.2021,Boeing Co (BA),$,212.97
+21.10.2021,Boeing Co (BA),$,214.34
+20.10.2021,Boeing Co (BA),$,216.17
+19.10.2021,Boeing Co (BA),$,215.97
+18.10.2021,Boeing Co (BA),$,216.98
+15.10.2021,Boeing Co (BA),$,217.04
+14.10.2021,Boeing Co (BA),$,217.44
+13.10.2021,Boeing Co (BA),$,221.78
+12.10.2021,Boeing Co (BA),$,223.57
+11.10.2021,Boeing Co (BA),$,226.45
+08.10.2021,Boeing Co (BA),$,226.39
+07.10.2021,Boeing Co (BA),$,226.48
+06.10.2021,Boeing Co (BA),$,224.99
+05.10.2021,Boeing Co (BA),$,224.42
+04.10.2021,Boeing Co (BA),$,223.79
+01.10.2021,Boeing Co (BA),$,226
+30.09.2021,Boeing Co (BA),$,219.94
+29.09.2021,Boeing Co (BA),$,225.36
+28.09.2021,Boeing Co (BA),$,218.41
+27.09.2021,Boeing Co (BA),$,224.16
+24.09.2021,Boeing Co (BA),$,221.39
+23.09.2021,Boeing Co (BA),$,221.1
+22.09.2021,Boeing Co (BA),$,216.98
+21.09.2021,Boeing Co (BA),$,208.51
+20.09.2021,Boeing Co (BA),$,209.5
+17.09.2021,Boeing Co (BA),$,213.36
+16.09.2021,Boeing Co (BA),$,213.36
+15.09.2021,Boeing Co (BA),$,214.22
+14.09.2021,Boeing Co (BA),$,211.57
+13.09.2021,Boeing Co (BA),$,214.48
+10.09.2021,Boeing Co (BA),$,210.3
+09.09.2021,Boeing Co (BA),$,213.94
+08.09.2021,Boeing Co (BA),$,211.38
+07.09.2021,Boeing Co (BA),$,214.24
+03.09.2021,Boeing Co (BA),$,218.17
+02.09.2021,Boeing Co (BA),$,220.83
+01.09.2021,Boeing Co (BA),$,218.12
+31.08.2021,Boeing Co (BA),$,219.5
+30.08.2021,Boeing Co (BA),$,217.66
+27.08.2021,Boeing Co (BA),$,221.75
+26.08.2021,Boeing Co (BA),$,216.5
+25.08.2021,Boeing Co (BA),$,221.03
+24.08.2021,Boeing Co (BA),$,221.43
+23.08.2021,Boeing Co (BA),$,219.4
+20.08.2021,Boeing Co (BA),$,212.67
+19.08.2021,Boeing Co (BA),$,212.16
+18.08.2021,Boeing Co (BA),$,219
+17.08.2021,Boeing Co (BA),$,222.22
+16.08.2021,Boeing Co (BA),$,229.06
+13.08.2021,Boeing Co (BA),$,234.46
+12.08.2021,Boeing Co (BA),$,238.18
+11.08.2021,Boeing Co (BA),$,239.49
+10.08.2021,Boeing Co (BA),$,235.78
+09.08.2021,Boeing Co (BA),$,232.27
+06.08.2021,Boeing Co (BA),$,231.33
+05.08.2021,Boeing Co (BA),$,229.94
+04.08.2021,Boeing Co (BA),$,226.63
+03.08.2021,Boeing Co (BA),$,229.09
+02.08.2021,Boeing Co (BA),$,225.34
+30.07.2021,Boeing Co (BA),$,226.48
+29.07.2021,Boeing Co (BA),$,231.63
+28.07.2021,Boeing Co (BA),$,231.57
+27.07.2021,Boeing Co (BA),$,222.27
+26.07.2021,Boeing Co (BA),$,225.85
+23.07.2021,Boeing Co (BA),$,221.52
+22.07.2021,Boeing Co (BA),$,220.87
+21.07.2021,Boeing Co (BA),$,222.54
+20.07.2021,Boeing Co (BA),$,217.15
+19.07.2021,Boeing Co (BA),$,206.99
+16.07.2021,Boeing Co (BA),$,217.74
+15.07.2021,Boeing Co (BA),$,222.76
+14.07.2021,Boeing Co (BA),$,224.45
+13.07.2021,Boeing Co (BA),$,228.2
+12.07.2021,Boeing Co (BA),$,238.29
+09.07.2021,Boeing Co (BA),$,239.59
+08.07.2021,Boeing Co (BA),$,236.77
+07.07.2021,Boeing Co (BA),$,231.78
+06.07.2021,Boeing Co (BA),$,236.14
+02.07.2021,Boeing Co (BA),$,236.68
+01.07.2021,Boeing Co (BA),$,239.73
+30.06.2021,Boeing Co (BA),$,239.56
+29.06.2021,Boeing Co (BA),$,235.76
+28.06.2021,Boeing Co (BA),$,239.96
+25.06.2021,Boeing Co (BA),$,248.38
+24.06.2021,Boeing Co (BA),$,250.57
+23.06.2021,Boeing Co (BA),$,243.57
+22.06.2021,Boeing Co (BA),$,243.78
+21.06.2021,Boeing Co (BA),$,245.28
+18.06.2021,Boeing Co (BA),$,237.35
+17.06.2021,Boeing Co (BA),$,239.22
+16.06.2021,Boeing Co (BA),$,242.27
+15.06.2021,Boeing Co (BA),$,246.54
+14.06.2021,Boeing Co (BA),$,245.14
+11.06.2021,Boeing Co (BA),$,247.28
+10.06.2021,Boeing Co (BA),$,248.34
+09.06.2021,Boeing Co (BA),$,248.06
+08.06.2021,Boeing Co (BA),$,252.76
+07.06.2021,Boeing Co (BA),$,252.66
+04.06.2021,Boeing Co (BA),$,249.92
+03.06.2021,Boeing Co (BA),$,250.32
+02.06.2021,Boeing Co (BA),$,255.62
+01.06.2021,Boeing Co (BA),$,254.73
+28.05.2021,Boeing Co (BA),$,247.02
+27.05.2021,Boeing Co (BA),$,250.7
+26.05.2021,Boeing Co (BA),$,241.37
+25.05.2021,Boeing Co (BA),$,240.74
+24.05.2021,Boeing Co (BA),$,237.44
+21.05.2021,Boeing Co (BA),$,234.82
+20.05.2021,Boeing Co (BA),$,227.65
+19.05.2021,Boeing Co (BA),$,224.42
+18.05.2021,Boeing Co (BA),$,227.55
+17.05.2021,Boeing Co (BA),$,227.98
+14.05.2021,Boeing Co (BA),$,228.47
+13.05.2021,Boeing Co (BA),$,222.64
+12.05.2021,Boeing Co (BA),$,220.78
+11.05.2021,Boeing Co (BA),$,228.88
+10.05.2021,Boeing Co (BA),$,232.93
+07.05.2021,Boeing Co (BA),$,235.47
+06.05.2021,Boeing Co (BA),$,229.81
+05.05.2021,Boeing Co (BA),$,228.18
+04.05.2021,Boeing Co (BA),$,233.63
+03.05.2021,Boeing Co (BA),$,235.19
+08.12.2021,Caterpillar Inc (CAT),$,204.19
+07.12.2021,Caterpillar Inc (CAT),$,204.49
+06.12.2021,Caterpillar Inc (CAT),$,201.28
+03.12.2021,Caterpillar Inc (CAT),$,197.8
+02.12.2021,Caterpillar Inc (CAT),$,196.79
+01.12.2021,Caterpillar Inc (CAT),$,191.47
+30.11.2021,Caterpillar Inc (CAT),$,193.35
+29.11.2021,Caterpillar Inc (CAT),$,195.92
+26.11.2021,Caterpillar Inc (CAT),$,198.73
+24.11.2021,Caterpillar Inc (CAT),$,207.07
+23.11.2021,Caterpillar Inc (CAT),$,205.33
+22.11.2021,Caterpillar Inc (CAT),$,202.38
+19.11.2021,Caterpillar Inc (CAT),$,200.44
+18.11.2021,Caterpillar Inc (CAT),$,201.42
+17.11.2021,Caterpillar Inc (CAT),$,202.98
+16.11.2021,Caterpillar Inc (CAT),$,205.43
+15.11.2021,Caterpillar Inc (CAT),$,207.71
+12.11.2021,Caterpillar Inc (CAT),$,209.27
+11.11.2021,Caterpillar Inc (CAT),$,208.53
+10.11.2021,Caterpillar Inc (CAT),$,206.67
+09.11.2021,Caterpillar Inc (CAT),$,209.81
+08.11.2021,Caterpillar Inc (CAT),$,214.25
+05.11.2021,Caterpillar Inc (CAT),$,205.88
+04.11.2021,Caterpillar Inc (CAT),$,203.59
+03.11.2021,Caterpillar Inc (CAT),$,203.55
+02.11.2021,Caterpillar Inc (CAT),$,207.12
+01.11.2021,Caterpillar Inc (CAT),$,205.38
+29.10.2021,Caterpillar Inc (CAT),$,204.01
+28.10.2021,Caterpillar Inc (CAT),$,204.09
+27.10.2021,Caterpillar Inc (CAT),$,196.13
+26.10.2021,Caterpillar Inc (CAT),$,199.64
+25.10.2021,Caterpillar Inc (CAT),$,202.21
+22.10.2021,Caterpillar Inc (CAT),$,200.65
+21.10.2021,Caterpillar Inc (CAT),$,202.14
+20.10.2021,Caterpillar Inc (CAT),$,204.19
+19.10.2021,Caterpillar Inc (CAT),$,201.14
+18.10.2021,Caterpillar Inc (CAT),$,198.18
+15.10.2021,Caterpillar Inc (CAT),$,199.02
+14.10.2021,Caterpillar Inc (CAT),$,194.33
+13.10.2021,Caterpillar Inc (CAT),$,188.94
+12.10.2021,Caterpillar Inc (CAT),$,189.92
+11.10.2021,Caterpillar Inc (CAT),$,192.89
+08.10.2021,Caterpillar Inc (CAT),$,195.16
+07.10.2021,Caterpillar Inc (CAT),$,195.75
+06.10.2021,Caterpillar Inc (CAT),$,191.86
+05.10.2021,Caterpillar Inc (CAT),$,192.5
+04.10.2021,Caterpillar Inc (CAT),$,193.13
+01.10.2021,Caterpillar Inc (CAT),$,194.33
+30.09.2021,Caterpillar Inc (CAT),$,191.97
+29.09.2021,Caterpillar Inc (CAT),$,197.87
+28.09.2021,Caterpillar Inc (CAT),$,200.55
+27.09.2021,Caterpillar Inc (CAT),$,200
+24.09.2021,Caterpillar Inc (CAT),$,196.82
+23.09.2021,Caterpillar Inc (CAT),$,196.62
+22.09.2021,Caterpillar Inc (CAT),$,191.35
+21.09.2021,Caterpillar Inc (CAT),$,189.84
+20.09.2021,Caterpillar Inc (CAT),$,190.82
+17.09.2021,Caterpillar Inc (CAT),$,199.75
+16.09.2021,Caterpillar Inc (CAT),$,203.6
+15.09.2021,Caterpillar Inc (CAT),$,205.73
+14.09.2021,Caterpillar Inc (CAT),$,202.33
+13.09.2021,Caterpillar Inc (CAT),$,206.2
+10.09.2021,Caterpillar Inc (CAT),$,205.01
+09.09.2021,Caterpillar Inc (CAT),$,205.42
+08.09.2021,Caterpillar Inc (CAT),$,206.77
+07.09.2021,Caterpillar Inc (CAT),$,208.23
+03.09.2021,Caterpillar Inc (CAT),$,210.37
+02.09.2021,Caterpillar Inc (CAT),$,211.78
+01.09.2021,Caterpillar Inc (CAT),$,207.96
+31.08.2021,Caterpillar Inc (CAT),$,210.87
+30.08.2021,Caterpillar Inc (CAT),$,211.45
+27.08.2021,Caterpillar Inc (CAT),$,212.83
+26.08.2021,Caterpillar Inc (CAT),$,211.24
+25.08.2021,Caterpillar Inc (CAT),$,214.76
+24.08.2021,Caterpillar Inc (CAT),$,212.59
+23.08.2021,Caterpillar Inc (CAT),$,209.14
+20.08.2021,Caterpillar Inc (CAT),$,204.94
+19.08.2021,Caterpillar Inc (CAT),$,204.45
+18.08.2021,Caterpillar Inc (CAT),$,209.81
+17.08.2021,Caterpillar Inc (CAT),$,213.44
+16.08.2021,Caterpillar Inc (CAT),$,217.71
+13.08.2021,Caterpillar Inc (CAT),$,218.57
+12.08.2021,Caterpillar Inc (CAT),$,220.24
+11.08.2021,Caterpillar Inc (CAT),$,221.66
+10.08.2021,Caterpillar Inc (CAT),$,214.07
+09.08.2021,Caterpillar Inc (CAT),$,208.89
+06.08.2021,Caterpillar Inc (CAT),$,208.35
+05.08.2021,Caterpillar Inc (CAT),$,207.19
+04.08.2021,Caterpillar Inc (CAT),$,204.52
+03.08.2021,Caterpillar Inc (CAT),$,208.5
+02.08.2021,Caterpillar Inc (CAT),$,205.16
+30.07.2021,Caterpillar Inc (CAT),$,206.75
+29.07.2021,Caterpillar Inc (CAT),$,212.56
+28.07.2021,Caterpillar Inc (CAT),$,211.44
+27.07.2021,Caterpillar Inc (CAT),$,209.9
+26.07.2021,Caterpillar Inc (CAT),$,211.03
+23.07.2021,Caterpillar Inc (CAT),$,209.53
+22.07.2021,Caterpillar Inc (CAT),$,209.16
+21.07.2021,Caterpillar Inc (CAT),$,210.73
+20.07.2021,Caterpillar Inc (CAT),$,207.96
+19.07.2021,Caterpillar Inc (CAT),$,203.08
+16.07.2021,Caterpillar Inc (CAT),$,207.95
+15.07.2021,Caterpillar Inc (CAT),$,211.41
+14.07.2021,Caterpillar Inc (CAT),$,211.64
+13.07.2021,Caterpillar Inc (CAT),$,215.19
+12.07.2021,Caterpillar Inc (CAT),$,218.58
+09.07.2021,Caterpillar Inc (CAT),$,217.42
+08.07.2021,Caterpillar Inc (CAT),$,212.11
+07.07.2021,Caterpillar Inc (CAT),$,214.69
+06.07.2021,Caterpillar Inc (CAT),$,213.52
+02.07.2021,Caterpillar Inc (CAT),$,217.76
+01.07.2021,Caterpillar Inc (CAT),$,216.71
+30.06.2021,Caterpillar Inc (CAT),$,217.63
+29.06.2021,Caterpillar Inc (CAT),$,215.1
+28.06.2021,Caterpillar Inc (CAT),$,216.27
+25.06.2021,Caterpillar Inc (CAT),$,216.31
+24.06.2021,Caterpillar Inc (CAT),$,219.34
+23.06.2021,Caterpillar Inc (CAT),$,213.79
+22.06.2021,Caterpillar Inc (CAT),$,213.13
+21.06.2021,Caterpillar Inc (CAT),$,213.21
+18.06.2021,Caterpillar Inc (CAT),$,208.86
+17.06.2021,Caterpillar Inc (CAT),$,209.45
+16.06.2021,Caterpillar Inc (CAT),$,217.16
+15.06.2021,Caterpillar Inc (CAT),$,219.46
+14.06.2021,Caterpillar Inc (CAT),$,219.01
+11.06.2021,Caterpillar Inc (CAT),$,220.7
+10.06.2021,Caterpillar Inc (CAT),$,225.73
+09.06.2021,Caterpillar Inc (CAT),$,234.65
+08.06.2021,Caterpillar Inc (CAT),$,240.16
+07.06.2021,Caterpillar Inc (CAT),$,239.76
+04.06.2021,Caterpillar Inc (CAT),$,244.02
+03.06.2021,Caterpillar Inc (CAT),$,243.84
+02.06.2021,Caterpillar Inc (CAT),$,243.46
+01.06.2021,Caterpillar Inc (CAT),$,242.76
+28.05.2021,Caterpillar Inc (CAT),$,241.08
+27.05.2021,Caterpillar Inc (CAT),$,241.28
+26.05.2021,Caterpillar Inc (CAT),$,237.71
+25.05.2021,Caterpillar Inc (CAT),$,237.17
+24.05.2021,Caterpillar Inc (CAT),$,239.05
+21.05.2021,Caterpillar Inc (CAT),$,237.24
+20.05.2021,Caterpillar Inc (CAT),$,234.99
+19.05.2021,Caterpillar Inc (CAT),$,236.87
+18.05.2021,Caterpillar Inc (CAT),$,239.47
+17.05.2021,Caterpillar Inc (CAT),$,244.79
+14.05.2021,Caterpillar Inc (CAT),$,242.23
+13.05.2021,Caterpillar Inc (CAT),$,240.07
+12.05.2021,Caterpillar Inc (CAT),$,237.32
+11.05.2021,Caterpillar Inc (CAT),$,239.3
+10.05.2021,Caterpillar Inc (CAT),$,242.61
+07.05.2021,Caterpillar Inc (CAT),$,240.99
+06.05.2021,Caterpillar Inc (CAT),$,237.07
+05.05.2021,Caterpillar Inc (CAT),$,237.88
+04.05.2021,Caterpillar Inc (CAT),$,233.41
+03.05.2021,Caterpillar Inc (CAT),$,228.17
+08.12.2021,Chevron Corp (CVX),$,118.45
+07.12.2021,Chevron Corp (CVX),$,117.92
+06.12.2021,Chevron Corp (CVX),$,116.2
+03.12.2021,Chevron Corp (CVX),$,114.41
+02.12.2021,Chevron Corp (CVX),$,115.14
+01.12.2021,Chevron Corp (CVX),$,112.1
+30.11.2021,Chevron Corp (CVX),$,112.87
+29.11.2021,Chevron Corp (CVX),$,114.85
+26.11.2021,Chevron Corp (CVX),$,114.51
+24.11.2021,Chevron Corp (CVX),$,117.19
+23.11.2021,Chevron Corp (CVX),$,116.3
+22.11.2021,Chevron Corp (CVX),$,113.91
+19.11.2021,Chevron Corp (CVX),$,111.91
+18.11.2021,Chevron Corp (CVX),$,114.45
+17.11.2021,Chevron Corp (CVX),$,115.42
+16.11.2021,Chevron Corp (CVX),$,117.28
+15.11.2021,Chevron Corp (CVX),$,116.82
+12.11.2021,Chevron Corp (CVX),$,114.23
+11.11.2021,Chevron Corp (CVX),$,114.16
+10.11.2021,Chevron Corp (CVX),$,114.15
+09.11.2021,Chevron Corp (CVX),$,116
+08.11.2021,Chevron Corp (CVX),$,115.15
+05.11.2021,Chevron Corp (CVX),$,114.74
+04.11.2021,Chevron Corp (CVX),$,113.51
+03.11.2021,Chevron Corp (CVX),$,113.01
+02.11.2021,Chevron Corp (CVX),$,113.83
+01.11.2021,Chevron Corp (CVX),$,114.53
+29.10.2021,Chevron Corp (CVX),$,114.49
+28.10.2021,Chevron Corp (CVX),$,113.12
+27.10.2021,Chevron Corp (CVX),$,112.07
+26.10.2021,Chevron Corp (CVX),$,114.1
+25.10.2021,Chevron Corp (CVX),$,113.85
+22.10.2021,Chevron Corp (CVX),$,112.8
+21.10.2021,Chevron Corp (CVX),$,111.74
+20.10.2021,Chevron Corp (CVX),$,113.16
+19.10.2021,Chevron Corp (CVX),$,111.7
+18.10.2021,Chevron Corp (CVX),$,109.56
+15.10.2021,Chevron Corp (CVX),$,109.61
+14.10.2021,Chevron Corp (CVX),$,108.81
+13.10.2021,Chevron Corp (CVX),$,107.79
+12.10.2021,Chevron Corp (CVX),$,107.15
+11.10.2021,Chevron Corp (CVX),$,107.13
+08.10.2021,Chevron Corp (CVX),$,108.05
+07.10.2021,Chevron Corp (CVX),$,105.68
+06.10.2021,Chevron Corp (CVX),$,104.93
+05.10.2021,Chevron Corp (CVX),$,105.86
+04.10.2021,Chevron Corp (CVX),$,104.72
+01.10.2021,Chevron Corp (CVX),$,104.33
+30.09.2021,Chevron Corp (CVX),$,101.45
+29.09.2021,Chevron Corp (CVX),$,103.33
+28.09.2021,Chevron Corp (CVX),$,103.36
+27.09.2021,Chevron Corp (CVX),$,102.97
+24.09.2021,Chevron Corp (CVX),$,100.6
+23.09.2021,Chevron Corp (CVX),$,100.06
+22.09.2021,Chevron Corp (CVX),$,97.64
+21.09.2021,Chevron Corp (CVX),$,94.85
+20.09.2021,Chevron Corp (CVX),$,94.78
+17.09.2021,Chevron Corp (CVX),$,96.76
+16.09.2021,Chevron Corp (CVX),$,97.32
+15.09.2021,Chevron Corp (CVX),$,98.24
+14.09.2021,Chevron Corp (CVX),$,96.2
+13.09.2021,Chevron Corp (CVX),$,97.97
+10.09.2021,Chevron Corp (CVX),$,96.07
+09.09.2021,Chevron Corp (CVX),$,96
+08.09.2021,Chevron Corp (CVX),$,96.39
+07.09.2021,Chevron Corp (CVX),$,97.06
+03.09.2021,Chevron Corp (CVX),$,97.49
+02.09.2021,Chevron Corp (CVX),$,97.71
+01.09.2021,Chevron Corp (CVX),$,95.71
+31.08.2021,Chevron Corp (CVX),$,96.77
+30.08.2021,Chevron Corp (CVX),$,98.39
+27.08.2021,Chevron Corp (CVX),$,98.64
+26.08.2021,Chevron Corp (CVX),$,97.22
+25.08.2021,Chevron Corp (CVX),$,98.51
+24.08.2021,Chevron Corp (CVX),$,97.84
+23.08.2021,Chevron Corp (CVX),$,96.73
+20.08.2021,Chevron Corp (CVX),$,94.3
+19.08.2021,Chevron Corp (CVX),$,94.29
+18.08.2021,Chevron Corp (CVX),$,96.7
+17.08.2021,Chevron Corp (CVX),$,100.73
+16.08.2021,Chevron Corp (CVX),$,100.92
+13.08.2021,Chevron Corp (CVX),$,101.96
+12.08.2021,Chevron Corp (CVX),$,102.64
+11.08.2021,Chevron Corp (CVX),$,102.85
+10.08.2021,Chevron Corp (CVX),$,102.08
+09.08.2021,Chevron Corp (CVX),$,100.25
+06.08.2021,Chevron Corp (CVX),$,101.95
+05.08.2021,Chevron Corp (CVX),$,101.23
+04.08.2021,Chevron Corp (CVX),$,100.3
+03.08.2021,Chevron Corp (CVX),$,102.6
+02.08.2021,Chevron Corp (CVX),$,101.63
+30.07.2021,Chevron Corp (CVX),$,101.81
+29.07.2021,Chevron Corp (CVX),$,102.57
+28.07.2021,Chevron Corp (CVX),$,101.18
+27.07.2021,Chevron Corp (CVX),$,100.61
+26.07.2021,Chevron Corp (CVX),$,100.95
+23.07.2021,Chevron Corp (CVX),$,98.86
+22.07.2021,Chevron Corp (CVX),$,98.82
+21.07.2021,Chevron Corp (CVX),$,99.82
+20.07.2021,Chevron Corp (CVX),$,96.53
+19.07.2021,Chevron Corp (CVX),$,95.96
+16.07.2021,Chevron Corp (CVX),$,98.62
+15.07.2021,Chevron Corp (CVX),$,101.3
+14.07.2021,Chevron Corp (CVX),$,101.97
+13.07.2021,Chevron Corp (CVX),$,103.93
+12.07.2021,Chevron Corp (CVX),$,104.28
+09.07.2021,Chevron Corp (CVX),$,104.07
+08.07.2021,Chevron Corp (CVX),$,102.6
+07.07.2021,Chevron Corp (CVX),$,102.93
+06.07.2021,Chevron Corp (CVX),$,103.99
+02.07.2021,Chevron Corp (CVX),$,106.07
+01.07.2021,Chevron Corp (CVX),$,106.21
+30.06.2021,Chevron Corp (CVX),$,104.74
+29.06.2021,Chevron Corp (CVX),$,103.76
+28.06.2021,Chevron Corp (CVX),$,103.99
+25.06.2021,Chevron Corp (CVX),$,107.3
+24.06.2021,Chevron Corp (CVX),$,107.14
+23.06.2021,Chevron Corp (CVX),$,106.27
+22.06.2021,Chevron Corp (CVX),$,106.4
+21.06.2021,Chevron Corp (CVX),$,106.05
+18.06.2021,Chevron Corp (CVX),$,103.03
+17.06.2021,Chevron Corp (CVX),$,107.07
+16.06.2021,Chevron Corp (CVX),$,109.67
+15.06.2021,Chevron Corp (CVX),$,110.3
+14.06.2021,Chevron Corp (CVX),$,107.97
+11.06.2021,Chevron Corp (CVX),$,107.91
+10.06.2021,Chevron Corp (CVX),$,108.41
+09.06.2021,Chevron Corp (CVX),$,107.78
+08.06.2021,Chevron Corp (CVX),$,108.73
+07.06.2021,Chevron Corp (CVX),$,107.75
+04.06.2021,Chevron Corp (CVX),$,108.45
+03.06.2021,Chevron Corp (CVX),$,107.59
+02.06.2021,Chevron Corp (CVX),$,108.08
+01.06.2021,Chevron Corp (CVX),$,106.65
+28.05.2021,Chevron Corp (CVX),$,103.79
+27.05.2021,Chevron Corp (CVX),$,103.01
+26.05.2021,Chevron Corp (CVX),$,104.12
+25.05.2021,Chevron Corp (CVX),$,103.87
+24.05.2021,Chevron Corp (CVX),$,105.6
+21.05.2021,Chevron Corp (CVX),$,104.12
+20.05.2021,Chevron Corp (CVX),$,103.56
+19.05.2021,Chevron Corp (CVX),$,103.2
+18.05.2021,Chevron Corp (CVX),$,106.18
+17.05.2021,Chevron Corp (CVX),$,110.81
+14.05.2021,Chevron Corp (CVX),$,109.47
+13.05.2021,Chevron Corp (CVX),$,106.68
+12.05.2021,Chevron Corp (CVX),$,107.37
+11.05.2021,Chevron Corp (CVX),$,106.7
+10.05.2021,Chevron Corp (CVX),$,109.57
+07.05.2021,Chevron Corp (CVX),$,110.02
+06.05.2021,Chevron Corp (CVX),$,109.02
+05.05.2021,Chevron Corp (CVX),$,108.96
+04.05.2021,Chevron Corp (CVX),$,106.11
+03.05.2021,Chevron Corp (CVX),$,105.53
+08.12.2021,Coca-Cola Co (KO),$,55
+07.12.2021,Coca-Cola Co (KO),$,55.21
+06.12.2021,Coca-Cola Co (KO),$,54.91
+03.12.2021,Coca-Cola Co (KO),$,53.54
+02.12.2021,Coca-Cola Co (KO),$,53.07
+01.12.2021,Coca-Cola Co (KO),$,52.3
+30.11.2021,Coca-Cola Co (KO),$,52.45
+29.11.2021,Coca-Cola Co (KO),$,54.58
+26.11.2021,Coca-Cola Co (KO),$,53.73
+24.11.2021,Coca-Cola Co (KO),$,55.43
+23.11.2021,Coca-Cola Co (KO),$,55.88
+22.11.2021,Coca-Cola Co (KO),$,55.47
+19.11.2021,Coca-Cola Co (KO),$,55.13
+18.11.2021,Coca-Cola Co (KO),$,55.41
+17.11.2021,Coca-Cola Co (KO),$,55.91
+16.11.2021,Coca-Cola Co (KO),$,56.22
+15.11.2021,Coca-Cola Co (KO),$,56.62
+12.11.2021,Coca-Cola Co (KO),$,56.61
+11.11.2021,Coca-Cola Co (KO),$,56.74
+10.11.2021,Coca-Cola Co (KO),$,56.72
+09.11.2021,Coca-Cola Co (KO),$,56.49
+08.11.2021,Coca-Cola Co (KO),$,56.33
+05.11.2021,Coca-Cola Co (KO),$,56.84
+04.11.2021,Coca-Cola Co (KO),$,56.6
+03.11.2021,Coca-Cola Co (KO),$,56.29
+02.11.2021,Coca-Cola Co (KO),$,56.1
+01.11.2021,Coca-Cola Co (KO),$,56.17
+29.10.2021,Coca-Cola Co (KO),$,56.37
+28.10.2021,Coca-Cola Co (KO),$,56.04
+27.10.2021,Coca-Cola Co (KO),$,55.52
+26.10.2021,Coca-Cola Co (KO),$,54.47
+25.10.2021,Coca-Cola Co (KO),$,54.23
+22.10.2021,Coca-Cola Co (KO),$,54.45
+21.10.2021,Coca-Cola Co (KO),$,54.35
+20.10.2021,Coca-Cola Co (KO),$,54.63
+19.10.2021,Coca-Cola Co (KO),$,54.15
+18.10.2021,Coca-Cola Co (KO),$,53.94
+15.10.2021,Coca-Cola Co (KO),$,54.48
+14.10.2021,Coca-Cola Co (KO),$,54.61
+13.10.2021,Coca-Cola Co (KO),$,54.24
+12.10.2021,Coca-Cola Co (KO),$,54.23
+11.10.2021,Coca-Cola Co (KO),$,54.23
+08.10.2021,Coca-Cola Co (KO),$,54.12
+07.10.2021,Coca-Cola Co (KO),$,53.88
+06.10.2021,Coca-Cola Co (KO),$,53.71
+05.10.2021,Coca-Cola Co (KO),$,53.08
+04.10.2021,Coca-Cola Co (KO),$,52.99
+01.10.2021,Coca-Cola Co (KO),$,53.02
+30.09.2021,Coca-Cola Co (KO),$,52.47
+29.09.2021,Coca-Cola Co (KO),$,52.96
+28.09.2021,Coca-Cola Co (KO),$,52.64
+27.09.2021,Coca-Cola Co (KO),$,53.61
+24.09.2021,Coca-Cola Co (KO),$,53.89
+23.09.2021,Coca-Cola Co (KO),$,54.04
+22.09.2021,Coca-Cola Co (KO),$,54.13
+21.09.2021,Coca-Cola Co (KO),$,54.05
+20.09.2021,Coca-Cola Co (KO),$,54.06
+17.09.2021,Coca-Cola Co (KO),$,54.44
+16.09.2021,Coca-Cola Co (KO),$,55.35
+15.09.2021,Coca-Cola Co (KO),$,55.88
+14.09.2021,Coca-Cola Co (KO),$,55.69
+13.09.2021,Coca-Cola Co (KO),$,56.07
+10.09.2021,Coca-Cola Co (KO),$,55.61
+09.09.2021,Coca-Cola Co (KO),$,55.86
+08.09.2021,Coca-Cola Co (KO),$,56.42
+07.09.2021,Coca-Cola Co (KO),$,55.67
+03.09.2021,Coca-Cola Co (KO),$,56.73
+02.09.2021,Coca-Cola Co (KO),$,56.77
+01.09.2021,Coca-Cola Co (KO),$,56.69
+31.08.2021,Coca-Cola Co (KO),$,56.31
+30.08.2021,Coca-Cola Co (KO),$,56.18
+27.08.2021,Coca-Cola Co (KO),$,55.65
+26.08.2021,Coca-Cola Co (KO),$,55.54
+25.08.2021,Coca-Cola Co (KO),$,56.07
+24.08.2021,Coca-Cola Co (KO),$,56.01
+23.08.2021,Coca-Cola Co (KO),$,56.44
+20.08.2021,Coca-Cola Co (KO),$,56.64
+19.08.2021,Coca-Cola Co (KO),$,56.86
+18.08.2021,Coca-Cola Co (KO),$,56.5
+17.08.2021,Coca-Cola Co (KO),$,57.28
+16.08.2021,Coca-Cola Co (KO),$,57.48
+13.08.2021,Coca-Cola Co (KO),$,57.23
+12.08.2021,Coca-Cola Co (KO),$,56.84
+11.08.2021,Coca-Cola Co (KO),$,56.73
+10.08.2021,Coca-Cola Co (KO),$,56.8
+09.08.2021,Coca-Cola Co (KO),$,56.65
+06.08.2021,Coca-Cola Co (KO),$,56.64
+05.08.2021,Coca-Cola Co (KO),$,56.5
+04.08.2021,Coca-Cola Co (KO),$,56.1
+03.08.2021,Coca-Cola Co (KO),$,56.92
+02.08.2021,Coca-Cola Co (KO),$,56.88
+30.07.2021,Coca-Cola Co (KO),$,57.03
+29.07.2021,Coca-Cola Co (KO),$,57.05
+28.07.2021,Coca-Cola Co (KO),$,56.74
+27.07.2021,Coca-Cola Co (KO),$,57.26
+26.07.2021,Coca-Cola Co (KO),$,57.06
+23.07.2021,Coca-Cola Co (KO),$,57.01
+22.07.2021,Coca-Cola Co (KO),$,56.47
+21.07.2021,Coca-Cola Co (KO),$,56.55
+20.07.2021,Coca-Cola Co (KO),$,55.83
+19.07.2021,Coca-Cola Co (KO),$,55.73
+16.07.2021,Coca-Cola Co (KO),$,56.4
+15.07.2021,Coca-Cola Co (KO),$,56.44
+14.07.2021,Coca-Cola Co (KO),$,56.26
+13.07.2021,Coca-Cola Co (KO),$,55.02
+12.07.2021,Coca-Cola Co (KO),$,54.48
+09.07.2021,Coca-Cola Co (KO),$,54.46
+08.07.2021,Coca-Cola Co (KO),$,54.13
+07.07.2021,Coca-Cola Co (KO),$,54.32
+06.07.2021,Coca-Cola Co (KO),$,53.88
+02.07.2021,Coca-Cola Co (KO),$,54.18
+01.07.2021,Coca-Cola Co (KO),$,53.96
+30.06.2021,Coca-Cola Co (KO),$,54.11
+29.06.2021,Coca-Cola Co (KO),$,53.86
+28.06.2021,Coca-Cola Co (KO),$,54.26
+25.06.2021,Coca-Cola Co (KO),$,54.32
+24.06.2021,Coca-Cola Co (KO),$,54.39
+23.06.2021,Coca-Cola Co (KO),$,54.12
+22.06.2021,Coca-Cola Co (KO),$,54.56
+21.06.2021,Coca-Cola Co (KO),$,54.36
+18.06.2021,Coca-Cola Co (KO),$,53.77
+17.06.2021,Coca-Cola Co (KO),$,54.95
+16.06.2021,Coca-Cola Co (KO),$,54.67
+15.06.2021,Coca-Cola Co (KO),$,55.41
+14.06.2021,Coca-Cola Co (KO),$,55.55
+11.06.2021,Coca-Cola Co (KO),$,56.16
+10.06.2021,Coca-Cola Co (KO),$,55.91
+09.06.2021,Coca-Cola Co (KO),$,55.48
+08.06.2021,Coca-Cola Co (KO),$,55.65
+07.06.2021,Coca-Cola Co (KO),$,56.04
+04.06.2021,Coca-Cola Co (KO),$,56.24
+03.06.2021,Coca-Cola Co (KO),$,55.64
+02.06.2021,Coca-Cola Co (KO),$,55.5
+01.06.2021,Coca-Cola Co (KO),$,55.28
+28.05.2021,Coca-Cola Co (KO),$,55.29
+27.05.2021,Coca-Cola Co (KO),$,55.49
+26.05.2021,Coca-Cola Co (KO),$,55.03
+25.05.2021,Coca-Cola Co (KO),$,54.79
+24.05.2021,Coca-Cola Co (KO),$,54.8
+21.05.2021,Coca-Cola Co (KO),$,54.62
+20.05.2021,Coca-Cola Co (KO),$,54.65
+19.05.2021,Coca-Cola Co (KO),$,54.17
+18.05.2021,Coca-Cola Co (KO),$,54.34
+17.05.2021,Coca-Cola Co (KO),$,54.64
+14.05.2021,Coca-Cola Co (KO),$,54.73
+13.05.2021,Coca-Cola Co (KO),$,54.51
+12.05.2021,Coca-Cola Co (KO),$,54.04
+11.05.2021,Coca-Cola Co (KO),$,54.32
+10.05.2021,Coca-Cola Co (KO),$,54.91
+07.05.2021,Coca-Cola Co (KO),$,54.51
+06.05.2021,Coca-Cola Co (KO),$,54.54
+05.05.2021,Coca-Cola Co (KO),$,54
+04.05.2021,Coca-Cola Co (KO),$,54.14
+03.05.2021,Coca-Cola Co (KO),$,54.48
+08.12.2021,Dow Inc (DOW),$,54.91
+07.12.2021,Dow Inc (DOW),$,54.86
+06.12.2021,Dow Inc (DOW),$,53.88
+03.12.2021,Dow Inc (DOW),$,53.07
+02.12.2021,Dow Inc (DOW),$,53.18
+01.12.2021,Dow Inc (DOW),$,52.76
+30.11.2021,Dow Inc (DOW),$,54.93
+29.11.2021,Dow Inc (DOW),$,56.86
+26.11.2021,Dow Inc (DOW),$,57.6
+24.11.2021,Dow Inc (DOW),$,58.63
+23.11.2021,Dow Inc (DOW),$,59.18
+22.11.2021,Dow Inc (DOW),$,58.79
+19.11.2021,Dow Inc (DOW),$,57.34
+18.11.2021,Dow Inc (DOW),$,57.98
+17.11.2021,Dow Inc (DOW),$,58.34
+16.11.2021,Dow Inc (DOW),$,58.86
+15.11.2021,Dow Inc (DOW),$,59.92
+12.11.2021,Dow Inc (DOW),$,60.06
+11.11.2021,Dow Inc (DOW),$,59.68
+10.11.2021,Dow Inc (DOW),$,58.76
+09.11.2021,Dow Inc (DOW),$,58.79
+08.11.2021,Dow Inc (DOW),$,58.57
+05.11.2021,Dow Inc (DOW),$,58.31
+04.11.2021,Dow Inc (DOW),$,57.17
+03.11.2021,Dow Inc (DOW),$,59.05
+02.11.2021,Dow Inc (DOW),$,58.47
+01.11.2021,Dow Inc (DOW),$,57.44
+29.10.2021,Dow Inc (DOW),$,55.97
+28.10.2021,Dow Inc (DOW),$,56.57
+27.10.2021,Dow Inc (DOW),$,56
+26.10.2021,Dow Inc (DOW),$,58.71
+25.10.2021,Dow Inc (DOW),$,58.71
+22.10.2021,Dow Inc (DOW),$,58.4
+21.10.2021,Dow Inc (DOW),$,59.26
+20.10.2021,Dow Inc (DOW),$,59.89
+19.10.2021,Dow Inc (DOW),$,59.19
+18.10.2021,Dow Inc (DOW),$,58.95
+15.10.2021,Dow Inc (DOW),$,58.96
+14.10.2021,Dow Inc (DOW),$,58.74
+13.10.2021,Dow Inc (DOW),$,56.91
+12.10.2021,Dow Inc (DOW),$,57.74
+11.10.2021,Dow Inc (DOW),$,58.23
+08.10.2021,Dow Inc (DOW),$,58.71
+07.10.2021,Dow Inc (DOW),$,58.51
+06.10.2021,Dow Inc (DOW),$,57.16
+05.10.2021,Dow Inc (DOW),$,59.1
+04.10.2021,Dow Inc (DOW),$,58.24
+01.10.2021,Dow Inc (DOW),$,58.58
+30.09.2021,Dow Inc (DOW),$,57.56
+29.09.2021,Dow Inc (DOW),$,58.82
+28.09.2021,Dow Inc (DOW),$,59.46
+27.09.2021,Dow Inc (DOW),$,59.69
+24.09.2021,Dow Inc (DOW),$,56.81
+23.09.2021,Dow Inc (DOW),$,57.43
+22.09.2021,Dow Inc (DOW),$,56.3
+21.09.2021,Dow Inc (DOW),$,55.53
+20.09.2021,Dow Inc (DOW),$,56.18
+17.09.2021,Dow Inc (DOW),$,57.75
+16.09.2021,Dow Inc (DOW),$,59.47
+15.09.2021,Dow Inc (DOW),$,60.2
+14.09.2021,Dow Inc (DOW),$,59.65
+13.09.2021,Dow Inc (DOW),$,60.72
+10.09.2021,Dow Inc (DOW),$,60.41
+09.09.2021,Dow Inc (DOW),$,60.28
+08.09.2021,Dow Inc (DOW),$,60.69
+07.09.2021,Dow Inc (DOW),$,61.87
+03.09.2021,Dow Inc (DOW),$,62.12
+02.09.2021,Dow Inc (DOW),$,62.62
+01.09.2021,Dow Inc (DOW),$,62.54
+31.08.2021,Dow Inc (DOW),$,62.9
+30.08.2021,Dow Inc (DOW),$,63.98
+27.08.2021,Dow Inc (DOW),$,65.38
+26.08.2021,Dow Inc (DOW),$,63.65
+25.08.2021,Dow Inc (DOW),$,63.87
+24.08.2021,Dow Inc (DOW),$,63.26
+23.08.2021,Dow Inc (DOW),$,62.06
+20.08.2021,Dow Inc (DOW),$,60.89
+19.08.2021,Dow Inc (DOW),$,60.55
+18.08.2021,Dow Inc (DOW),$,61.88
+17.08.2021,Dow Inc (DOW),$,62.31
+16.08.2021,Dow Inc (DOW),$,63.32
+13.08.2021,Dow Inc (DOW),$,63.69
+12.08.2021,Dow Inc (DOW),$,64.01
+11.08.2021,Dow Inc (DOW),$,64.24
+10.08.2021,Dow Inc (DOW),$,63.12
+09.08.2021,Dow Inc (DOW),$,61.82
+06.08.2021,Dow Inc (DOW),$,62
+05.08.2021,Dow Inc (DOW),$,61
+04.08.2021,Dow Inc (DOW),$,60.99
+03.08.2021,Dow Inc (DOW),$,62.23
+02.08.2021,Dow Inc (DOW),$,61.22
+30.07.2021,Dow Inc (DOW),$,62.16
+29.07.2021,Dow Inc (DOW),$,62.6
+28.07.2021,Dow Inc (DOW),$,61.87
+27.07.2021,Dow Inc (DOW),$,61.95
+26.07.2021,Dow Inc (DOW),$,62.01
+23.07.2021,Dow Inc (DOW),$,60.11
+22.07.2021,Dow Inc (DOW),$,60.48
+21.07.2021,Dow Inc (DOW),$,59.73
+20.07.2021,Dow Inc (DOW),$,58.62
+19.07.2021,Dow Inc (DOW),$,57.79
+16.07.2021,Dow Inc (DOW),$,60.01
+15.07.2021,Dow Inc (DOW),$,61.91
+14.07.2021,Dow Inc (DOW),$,62.32
+13.07.2021,Dow Inc (DOW),$,62.7
+12.07.2021,Dow Inc (DOW),$,63.22
+09.07.2021,Dow Inc (DOW),$,63.08
+08.07.2021,Dow Inc (DOW),$,61.41
+07.07.2021,Dow Inc (DOW),$,62.25
+06.07.2021,Dow Inc (DOW),$,61.93
+02.07.2021,Dow Inc (DOW),$,63.51
+01.07.2021,Dow Inc (DOW),$,63.5
+30.06.2021,Dow Inc (DOW),$,63.28
+29.06.2021,Dow Inc (DOW),$,62.98
+28.06.2021,Dow Inc (DOW),$,62.9
+25.06.2021,Dow Inc (DOW),$,63.29
+24.06.2021,Dow Inc (DOW),$,63.11
+23.06.2021,Dow Inc (DOW),$,63.15
+22.06.2021,Dow Inc (DOW),$,63.5
+21.06.2021,Dow Inc (DOW),$,63.11
+18.06.2021,Dow Inc (DOW),$,61.98
+17.06.2021,Dow Inc (DOW),$,63.54
+16.06.2021,Dow Inc (DOW),$,65.59
+15.06.2021,Dow Inc (DOW),$,67.22
+14.06.2021,Dow Inc (DOW),$,66.96
+11.06.2021,Dow Inc (DOW),$,68
+10.06.2021,Dow Inc (DOW),$,67.99
+09.06.2021,Dow Inc (DOW),$,68.84
+08.06.2021,Dow Inc (DOW),$,69.38
+07.06.2021,Dow Inc (DOW),$,69.24
+04.06.2021,Dow Inc (DOW),$,70.37
+03.06.2021,Dow Inc (DOW),$,70.61
+02.06.2021,Dow Inc (DOW),$,68.95
+01.06.2021,Dow Inc (DOW),$,70.41
+28.05.2021,Dow Inc (DOW),$,68.42
+27.05.2021,Dow Inc (DOW),$,68.66
+26.05.2021,Dow Inc (DOW),$,69.57
+25.05.2021,Dow Inc (DOW),$,69.04
+24.05.2021,Dow Inc (DOW),$,69.55
+21.05.2021,Dow Inc (DOW),$,68.83
+20.05.2021,Dow Inc (DOW),$,68.26
+19.05.2021,Dow Inc (DOW),$,68.55
+18.05.2021,Dow Inc (DOW),$,69.53
+17.05.2021,Dow Inc (DOW),$,70.91
+14.05.2021,Dow Inc (DOW),$,69.83
+13.05.2021,Dow Inc (DOW),$,68.08
+12.05.2021,Dow Inc (DOW),$,67.6
+11.05.2021,Dow Inc (DOW),$,68.57
+10.05.2021,Dow Inc (DOW),$,68.73
+07.05.2021,Dow Inc (DOW),$,69.04
+06.05.2021,Dow Inc (DOW),$,69.04
+05.05.2021,Dow Inc (DOW),$,68.07
+04.05.2021,Dow Inc (DOW),$,66.22
+03.05.2021,Dow Inc (DOW),$,64.55
+08.12.2021,Goldman Sachs Group Inc (GS),$,397.32
+07.12.2021,Goldman Sachs Group Inc (GS),$,400.11
+06.12.2021,Goldman Sachs Group Inc (GS),$,389.3
+03.12.2021,Goldman Sachs Group Inc (GS),$,382.73
+02.12.2021,Goldman Sachs Group Inc (GS),$,387.54
+01.12.2021,Goldman Sachs Group Inc (GS),$,376.48
+30.11.2021,Goldman Sachs Group Inc (GS),$,380.99
+29.11.2021,Goldman Sachs Group Inc (GS),$,386.54
+26.11.2021,Goldman Sachs Group Inc (GS),$,389.39
+24.11.2021,Goldman Sachs Group Inc (GS),$,399.19
+23.11.2021,Goldman Sachs Group Inc (GS),$,406.34
+22.11.2021,Goldman Sachs Group Inc (GS),$,396.16
+19.11.2021,Goldman Sachs Group Inc (GS),$,387.39
+18.11.2021,Goldman Sachs Group Inc (GS),$,391.37
+17.11.2021,Goldman Sachs Group Inc (GS),$,391.55
+16.11.2021,Goldman Sachs Group Inc (GS),$,403.09
+15.11.2021,Goldman Sachs Group Inc (GS),$,404.81
+12.11.2021,Goldman Sachs Group Inc (GS),$,404.91
+11.11.2021,Goldman Sachs Group Inc (GS),$,402.34
+10.11.2021,Goldman Sachs Group Inc (GS),$,399.12
+09.11.2021,Goldman Sachs Group Inc (GS),$,405.35
+08.11.2021,Goldman Sachs Group Inc (GS),$,408.34
+05.11.2021,Goldman Sachs Group Inc (GS),$,407.08
+04.11.2021,Goldman Sachs Group Inc (GS),$,408.07
+03.11.2021,Goldman Sachs Group Inc (GS),$,417.9
+02.11.2021,Goldman Sachs Group Inc (GS),$,423.85
+01.11.2021,Goldman Sachs Group Inc (GS),$,416.7
+29.10.2021,Goldman Sachs Group Inc (GS),$,413.35
+28.10.2021,Goldman Sachs Group Inc (GS),$,414.82
+27.10.2021,Goldman Sachs Group Inc (GS),$,410.99
+26.10.2021,Goldman Sachs Group Inc (GS),$,417.61
+25.10.2021,Goldman Sachs Group Inc (GS),$,414.75
+22.10.2021,Goldman Sachs Group Inc (GS),$,414.32
+21.10.2021,Goldman Sachs Group Inc (GS),$,407.59
+20.10.2021,Goldman Sachs Group Inc (GS),$,407.89
+19.10.2021,Goldman Sachs Group Inc (GS),$,412.16
+18.10.2021,Goldman Sachs Group Inc (GS),$,413.69
+15.10.2021,Goldman Sachs Group Inc (GS),$,406.07
+14.10.2021,Goldman Sachs Group Inc (GS),$,391.2
+13.10.2021,Goldman Sachs Group Inc (GS),$,386.31
+12.10.2021,Goldman Sachs Group Inc (GS),$,386.53
+11.10.2021,Goldman Sachs Group Inc (GS),$,385.24
+08.10.2021,Goldman Sachs Group Inc (GS),$,392.81
+07.10.2021,Goldman Sachs Group Inc (GS),$,390.62
+06.10.2021,Goldman Sachs Group Inc (GS),$,388.05
+05.10.2021,Goldman Sachs Group Inc (GS),$,385.81
+04.10.2021,Goldman Sachs Group Inc (GS),$,374.15
+01.10.2021,Goldman Sachs Group Inc (GS),$,380
+30.09.2021,Goldman Sachs Group Inc (GS),$,378.03
+29.09.2021,Goldman Sachs Group Inc (GS),$,384.89
+28.09.2021,Goldman Sachs Group Inc (GS),$,389.5
+27.09.2021,Goldman Sachs Group Inc (GS),$,399.81
+24.09.2021,Goldman Sachs Group Inc (GS),$,390.85
+23.09.2021,Goldman Sachs Group Inc (GS),$,391.86
+22.09.2021,Goldman Sachs Group Inc (GS),$,385.47
+21.09.2021,Goldman Sachs Group Inc (GS),$,375.84
+20.09.2021,Goldman Sachs Group Inc (GS),$,378.13
+17.09.2021,Goldman Sachs Group Inc (GS),$,391.46
+16.09.2021,Goldman Sachs Group Inc (GS),$,396.68
+15.09.2021,Goldman Sachs Group Inc (GS),$,401.95
+14.09.2021,Goldman Sachs Group Inc (GS),$,403.69
+13.09.2021,Goldman Sachs Group Inc (GS),$,409.26
+10.09.2021,Goldman Sachs Group Inc (GS),$,403.48
+09.09.2021,Goldman Sachs Group Inc (GS),$,404.58
+08.09.2021,Goldman Sachs Group Inc (GS),$,405
+07.09.2021,Goldman Sachs Group Inc (GS),$,410.32
+03.09.2021,Goldman Sachs Group Inc (GS),$,411.31
+02.09.2021,Goldman Sachs Group Inc (GS),$,414.5
+01.09.2021,Goldman Sachs Group Inc (GS),$,413.66
+31.08.2021,Goldman Sachs Group Inc (GS),$,413.51
+30.08.2021,Goldman Sachs Group Inc (GS),$,413.6
+27.08.2021,Goldman Sachs Group Inc (GS),$,419.69
+26.08.2021,Goldman Sachs Group Inc (GS),$,412.41
+25.08.2021,Goldman Sachs Group Inc (GS),$,413.12
+24.08.2021,Goldman Sachs Group Inc (GS),$,408.56
+23.08.2021,Goldman Sachs Group Inc (GS),$,401.45
+20.08.2021,Goldman Sachs Group Inc (GS),$,395.87
+19.08.2021,Goldman Sachs Group Inc (GS),$,393.57
+18.08.2021,Goldman Sachs Group Inc (GS),$,398.8
+17.08.2021,Goldman Sachs Group Inc (GS),$,404.97
+16.08.2021,Goldman Sachs Group Inc (GS),$,408.35
+13.08.2021,Goldman Sachs Group Inc (GS),$,410.78
+12.08.2021,Goldman Sachs Group Inc (GS),$,415
+11.08.2021,Goldman Sachs Group Inc (GS),$,413.89
+10.08.2021,Goldman Sachs Group Inc (GS),$,407.97
+09.08.2021,Goldman Sachs Group Inc (GS),$,399.88
+06.08.2021,Goldman Sachs Group Inc (GS),$,397.89
+05.08.2021,Goldman Sachs Group Inc (GS),$,384.3
+04.08.2021,Goldman Sachs Group Inc (GS),$,377.86
+03.08.2021,Goldman Sachs Group Inc (GS),$,380.36
+02.08.2021,Goldman Sachs Group Inc (GS),$,378.19
+30.07.2021,Goldman Sachs Group Inc (GS),$,374.88
+29.07.2021,Goldman Sachs Group Inc (GS),$,377.55
+28.07.2021,Goldman Sachs Group Inc (GS),$,374.23
+27.07.2021,Goldman Sachs Group Inc (GS),$,374.84
+26.07.2021,Goldman Sachs Group Inc (GS),$,375.9
+23.07.2021,Goldman Sachs Group Inc (GS),$,374.05
+22.07.2021,Goldman Sachs Group Inc (GS),$,372.71
+21.07.2021,Goldman Sachs Group Inc (GS),$,373.5
+20.07.2021,Goldman Sachs Group Inc (GS),$,364.76
+19.07.2021,Goldman Sachs Group Inc (GS),$,354.72
+16.07.2021,Goldman Sachs Group Inc (GS),$,364.8
+15.07.2021,Goldman Sachs Group Inc (GS),$,373.35
+14.07.2021,Goldman Sachs Group Inc (GS),$,374.4
+13.07.2021,Goldman Sachs Group Inc (GS),$,375.98
+12.07.2021,Goldman Sachs Group Inc (GS),$,380.5
+09.07.2021,Goldman Sachs Group Inc (GS),$,371.76
+08.07.2021,Goldman Sachs Group Inc (GS),$,358.94
+07.07.2021,Goldman Sachs Group Inc (GS),$,367.67
+06.07.2021,Goldman Sachs Group Inc (GS),$,369.86
+02.07.2021,Goldman Sachs Group Inc (GS),$,374.16
+01.07.2021,Goldman Sachs Group Inc (GS),$,374.99
+30.06.2021,Goldman Sachs Group Inc (GS),$,379.53
+29.06.2021,Goldman Sachs Group Inc (GS),$,372.62
+28.06.2021,Goldman Sachs Group Inc (GS),$,368.71
+25.06.2021,Goldman Sachs Group Inc (GS),$,368.77
+24.06.2021,Goldman Sachs Group Inc (GS),$,368.75
+23.06.2021,Goldman Sachs Group Inc (GS),$,361.05
+22.06.2021,Goldman Sachs Group Inc (GS),$,357.53
+21.06.2021,Goldman Sachs Group Inc (GS),$,357.54
+18.06.2021,Goldman Sachs Group Inc (GS),$,348.83
+17.06.2021,Goldman Sachs Group Inc (GS),$,361.5
+16.06.2021,Goldman Sachs Group Inc (GS),$,371
+15.06.2021,Goldman Sachs Group Inc (GS),$,371.3
+14.06.2021,Goldman Sachs Group Inc (GS),$,372.92
+11.06.2021,Goldman Sachs Group Inc (GS),$,378.05
+10.06.2021,Goldman Sachs Group Inc (GS),$,373.94
+09.06.2021,Goldman Sachs Group Inc (GS),$,382.78
+08.06.2021,Goldman Sachs Group Inc (GS),$,384.7
+07.06.2021,Goldman Sachs Group Inc (GS),$,388.16
+04.06.2021,Goldman Sachs Group Inc (GS),$,391.45
+03.06.2021,Goldman Sachs Group Inc (GS),$,388.72
+02.06.2021,Goldman Sachs Group Inc (GS),$,383.44
+01.06.2021,Goldman Sachs Group Inc (GS),$,382.44
+28.05.2021,Goldman Sachs Group Inc (GS),$,372.02
+27.05.2021,Goldman Sachs Group Inc (GS),$,371.37
+26.05.2021,Goldman Sachs Group Inc (GS),$,367.4
+25.05.2021,Goldman Sachs Group Inc (GS),$,364.51
+24.05.2021,Goldman Sachs Group Inc (GS),$,368.29
+21.05.2021,Goldman Sachs Group Inc (GS),$,366.26
+20.05.2021,Goldman Sachs Group Inc (GS),$,359.78
+19.05.2021,Goldman Sachs Group Inc (GS),$,358.38
+18.05.2021,Goldman Sachs Group Inc (GS),$,364.56
+17.05.2021,Goldman Sachs Group Inc (GS),$,369.25
+14.05.2021,Goldman Sachs Group Inc (GS),$,368.77
+13.05.2021,Goldman Sachs Group Inc (GS),$,358.81
+12.05.2021,Goldman Sachs Group Inc (GS),$,354.4
+11.05.2021,Goldman Sachs Group Inc (GS),$,359.92
+10.05.2021,Goldman Sachs Group Inc (GS),$,368.68
+07.05.2021,Goldman Sachs Group Inc (GS),$,370.89
+06.05.2021,Goldman Sachs Group Inc (GS),$,365.97
+05.05.2021,Goldman Sachs Group Inc (GS),$,357.62
+04.05.2021,Goldman Sachs Group Inc (GS),$,349.84
+03.05.2021,Goldman Sachs Group Inc (GS),$,350.16
 2021-11-27;Home Depot Inc (HD);$;402,70
 2021-11-27;Honeywell International Inc (HON);$;208,21
 2021-11-27;International Business Machines (IBM);$;115,81
