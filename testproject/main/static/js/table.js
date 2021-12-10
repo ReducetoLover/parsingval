@@ -25,17 +25,9 @@ function table()
 
             var date= document.querySelector(i);
             var cost= document.querySelector(k);
-            if (Currency().dates[a]==undefined && R[SELECTED_Currency].values[a]==undefined)
-            {
-
-               //date.remove();
-               //cost.remove();
-
-            }
-            else
-            {
+            if (Currency().dates[a]!=undefined){
                 date.innerHTML=`${Currency().dates[a]}`;
-                cost.innerHTML=`${Currency().values[a]} ${Currency().valuta[a]}`;
+                cost.innerHTML=`${Currency().values[a]} ${Currency().valutes[a]}`;
             }
             count--;
             a--;
@@ -79,7 +71,7 @@ function TableShow(countRow)
             newCell.setAttribute('class','currency-spisok-values');
             newCell = newRow.insertCell(1);
             newCell.setAttribute('class','currency-spisok-rubls');
-            newCell.innerHTML = Object.values(R)[i].values[Object.values(R)[i].values.length-1]+" "+Object.values(R)[i].valuta[Object.values(R)[i].valuta.length-1];
+            newCell.innerHTML = Object.values(R)[i].values[Object.values(R)[i].values.length-1]+" "+Object.values(R)[i].valutes[Object.values(R)[i].valutes.length-1];
 
 
 

@@ -27,5 +27,13 @@ urlpatterns = [
     path('saving_stocks', views.saving_stocks, name='saving_stocks'),
     path('curse_csv', views.curse_csv, name='curse_csv'),
     path('stock_csv', views.stock_csv, name='stock_csv'),
+
+    path('curse_json_all', views.curse_json_all),
+    path('curse_json_year', views.curse_json_year),
+    path('curse_json_week', views.curse_json_week),
+    path('stock_json_all', views.stock_json_all),
+    path('stock_json_year', views.stock_json_year),
+    path('stock_json_week', views.stock_json_week),
+
     path('admin/', views.running, name='running'),
 ]

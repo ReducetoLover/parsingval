@@ -88,7 +88,7 @@ function checkMonth(arr) {
     let toArr = {};
     toArr.dates = [];
     toArr.values = [];
-    toArr.valuta = [];
+    toArr.valutes = [];
 
     arr.dates.map((date, i) => {
         if(y !== date.split('-')[0]) return;
@@ -105,7 +105,7 @@ function checkMonth(arr) {
 
             count = 0;
             toArr.dates.push(m);
-            toArr.valuta.push(arr.valuta[i]);
+            toArr.valutes.push(arr.valutes[i]);
         }
         sum += arr.values[i]*1;
         count++;
@@ -120,17 +120,45 @@ function checkMonth(arr) {
     return toArr;
 }
 
+
+
 $(document).ready(function() {
-    var url = location.pathname == "/currency" ? "curse_csv" : "stock_csv";
+    var url = location.pathname == "/currency" ? "curse_json_" : "stock_json_";
+
     $.ajax({
         type: "GET",
-        url: url,
+        url: url+"week",
         dataType: "text",
         success: function(data) {
-            parse(data);
+            R_week = JSON.parse(data);
+            SELECTED_Period = R_week;
 
+            FirstDraw();
+            CurrentValue();
+            table();
+            console.log(R_week);
+        },
+        error: function (e){console.warn(e)}
+    });
+
+    $.ajax({
+        type: "GET",
+        url: url+"year",
+        dataType: "text",
+        success: function(data) {
+            R_year = JSON.parse(data);
+            getYear();
         }
-     });
+    });
+
+    $.ajax({
+        type: "GET",
+        url: url+"all",
+        dataType: "text",
+        success: function(data) {
+            R = JSON.parse(data);
+        }
+    });
 });
 function parse(d) {
 
