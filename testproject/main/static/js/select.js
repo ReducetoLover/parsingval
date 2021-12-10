@@ -12,8 +12,8 @@ $('.t_select').hover(function() {
         item.addEventListener('click',selectChoose,true)
     });
     function selectChoose(){
-        let currency = $(this).find("td").eq(0).html();
-        let price = $(this).find("td").eq(1).html();
+        let currency = $(this).find("td")[0].innerText;
+        let price = $(this).find("td")[1].innerText;
         const currencyText=document.querySelector('#currency');
         currencyText.innerHTML=currency;
         const priceText=document.querySelector('#price');

@@ -14,9 +14,9 @@ function createtable()
 }
 function table()
 {
-    var a = Currency().dates.length-1;
+    var a = R_week[SELECTED_Currency].dates.length-1;
 
-    while (a>=Currency().dates.length-7)
+    while (a>=R_week[SELECTED_Currency].dates.length-7)
     {
 
         var i =".date_"+ count;
@@ -25,9 +25,9 @@ function table()
 
             var date= document.querySelector(i);
             var cost= document.querySelector(k);
-            if (Currency().dates[a]!=undefined){
-                date.innerHTML=`${Currency().dates[a]}`;
-                cost.innerHTML=`${Currency().values[a]} ${Currency().valutes[a]}`;
+            if (R_week[SELECTED_Currency].dates[a]!=undefined){
+                date.innerHTML=`${R_week[SELECTED_Currency].dates[a]}`;
+                cost.innerHTML=`${R_week[SELECTED_Currency].values[a]} ${R_week[SELECTED_Currency].valutes[a]}`;
             }
             count--;
             a--;

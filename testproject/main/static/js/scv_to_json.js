@@ -132,7 +132,8 @@ $(document).ready(function() {
         success: function(data) {
             R_week = JSON.parse(data);
             SELECTED_Period = R_week;
-
+        },
+        complete: function (){
             FirstDraw();
             CurrentValue();
             table();
@@ -143,20 +144,13 @@ $(document).ready(function() {
 
     $.ajax({
         type: "GET",
-        url: url+"year",
-        dataType: "text",
-        success: function(data) {
-            R_year = JSON.parse(data);
-            getYear();
-        }
-    });
-
-    $.ajax({
-        type: "GET",
         url: url+"all",
         dataType: "text",
         success: function(data) {
             R = JSON.parse(data);
+        },
+        complete: function (){
+            getYear();
         }
     });
 });

@@ -42,7 +42,6 @@ def query_jsons(name):
     conn = sqlite3.connect('parsing.db')
     c = conn.cursor()
     all = c.execute('''SELECT * FROM {} ORDER BY Name'''.format(name)).fetchall()
-    week = c.execute('''SELECT * FROM {} WHERE DATE(Date) > date('now', '-7 days') ORDER BY Name'''.format(name)).fetchall()
     year = c.execute('''SELECT * FROM {} WHERE DATE(Date) > date('now', '-365 days') ORDER BY Name'''.format(name)).fetchall()
 
     #print(json.dumps(r))
@@ -52,7 +51,6 @@ def query_jsons(name):
     #print(sorted(all, key=lambda r: r[0]))
 
     save_jsons('{0}{1}_all.json'.format(MAIN_PATH,name), all)
-    save_jsons('{0}{1}_week.json'.format(MAIN_PATH,name), week)
     save_jsons('{0}{1}_year.json'.format(MAIN_PATH,name), year)
 
 
@@ -101,7 +99,7 @@ def stocks(url):
     short_name = soup.find('h1', class_="text-2xl font-semibold instrument-header_title__GTWDv mobile:mb-2")
     items = soup.find('span', class_="text-2xl")
     for i in items:
-        item_name = short_name.text.strip()
+        item_name = short_name.text.strip().replace("’")
         item_price = i.text.replace(",", ".")
         d = {
             'date': dt.date.today(),
