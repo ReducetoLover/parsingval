@@ -44,16 +44,12 @@ def stock_csv(request):
 
 def curse_json_all(request):
     return render(request, 'main/curse_all.json')
-def curse_json_year(request):
-    return render(request, 'main/curse_year.json')
 def curse_json_week(request):
     return render(request, 'main/curse_week.json')
 
 
 def stock_json_all(request):
     return render(request, 'main/stock_all.json')
-def stock_json_year(request):
-    return render(request, 'main/stock_year.json')
 def stock_json_week(request):
     return render(request, 'main/stock_week.json')
 
