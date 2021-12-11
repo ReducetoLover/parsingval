@@ -34,16 +34,7 @@ function table()
         }
     }
 }
-$(document).ready(function() {
-    $('.currency').click(function () {
-        SELECTED_Currency = $(this).find("td").eq(0).html();
-        console.log(1);
-         count=6;
-         createtable();
-         table();
 
-    });
-});
 
 var i = 0;
 var j = 0;
